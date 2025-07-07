@@ -1,0 +1,18 @@
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		steel=42.000
+	}
+	provinces={
+		549 1346 3629 9503 9559 11502 
+	}
+	history = {
+		owner = MAI
+		add_core_of = MAI
+	}
+	manpower=1915600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=14.000
+}

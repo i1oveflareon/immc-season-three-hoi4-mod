@@ -1,0 +1,13 @@
+characters = {
+    SAX_gretchen_decker = {
+        name = SAX_gretchen_decker
+        portraits = {
+            civilian = {
+                large = portrait_SAX_gretchen_decker
+            }
+        }
+        country_leader = {
+            ideology = right_populism
+        }
+    }
+}

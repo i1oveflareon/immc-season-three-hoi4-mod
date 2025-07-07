@@ -1,0 +1,18 @@
+state={
+	id=917
+	name="STATE_917"
+	resources={
+		steel=20.000
+	}
+	provinces={
+		46 113 168 3111 3162 6010 6129 9066 9154 9229 11049 11052 11116 
+	}
+	history = {
+		owner = MGS
+		add_core_of = MGS
+	}
+	manpower=65000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

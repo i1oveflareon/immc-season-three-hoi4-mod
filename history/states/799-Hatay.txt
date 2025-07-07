@@ -1,0 +1,15 @@
+state={
+	id=799
+	name="STATE_799"
+	provinces={
+		806 3889 9893 12029 
+	}
+	history = {
+		owner = CNN
+		add_core_of = CNN
+	}
+	manpower=234379
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=791
+	name="STATE_791"
+	resources={
+		tungsten=10.000
+	}
+	provinces={
+		903 4024 6936 9700 9872 11684 11825 
+	}
+	history = {
+		owner = BAY
+		add_core_of = BAY
+	}
+	manpower=713628
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

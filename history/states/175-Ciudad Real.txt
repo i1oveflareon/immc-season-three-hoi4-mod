@@ -1,0 +1,15 @@
+state={
+	id=175
+	name="STATE_175"
+	provinces={
+		3953 6832 6896 9778 9828 12081 
+	}
+	history = {
+		owner = BAY
+		add_core_of = BAY
+	}
+	manpower=526903
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=11.000
+}

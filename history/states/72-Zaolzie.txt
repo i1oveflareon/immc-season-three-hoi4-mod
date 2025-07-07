@@ -1,0 +1,15 @@
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		9551 9567 
+	}
+	manpower=152000
+	history = {
+		owner = LIP
+		add_core_of = LIP
+	}
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

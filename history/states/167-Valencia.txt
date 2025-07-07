@@ -1,0 +1,15 @@
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		3799 3873 6817 6856 6906 6959 9896 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=1979294
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

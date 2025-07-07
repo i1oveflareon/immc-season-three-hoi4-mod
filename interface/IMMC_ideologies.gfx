@@ -1,0 +1,46 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_totalitarian_socialist_group"
+		texturefile = "gfx/interface/ideologies/totalitarian_socialist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_communist_group"
+		texturefile = "gfx/interface/ideologies/communist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_libertarian_socialist_group"
+		texturefile = "gfx/interface/ideologies/libertarian_socialist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/social_democrat_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/social_liberal_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/market_liberal_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_group"
+		texturefile = "gfx/interface/ideologies/conservative_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_nationalist_group"
+		texturefile = "gfx/interface/ideologies/nationalist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_fascist_group"
+		texturefile = "gfx/interface/ideologies/fascist_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_savarite_group"
+		texturefile = "gfx/interface/ideologies/savarite_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_OCC_absolute_monarchist"
+		texturefile = "gfx/interface/ideologies/OCC_absolute_monarchist.png"
+	}	
+}

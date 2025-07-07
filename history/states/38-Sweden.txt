@@ -1,0 +1,15 @@
+state={
+	id=38
+	name="STATE_38"
+	provinces={
+		49 125 3045 3108 3148 6023 6126 9035 9051 9117 9151 9193 11040 11091 11123 11147 11209 
+	}
+	history = {
+		owner = MGS
+		add_core_of = MGS
+	}
+	manpower=931955
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

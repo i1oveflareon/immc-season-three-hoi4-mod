@@ -1,0 +1,18 @@
+state={
+	id=52
+	name="STATE_52"
+	resources={
+		aluminium=18.000
+	}
+	provinces={
+		692 708 3688 3690 3705 6693 6725 9515 9652 9655 9666 9681 11653 
+	}
+	history = {
+		owner = RAT
+		add_core_of = RAT
+	}
+	manpower=2679413
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=8.000
+}

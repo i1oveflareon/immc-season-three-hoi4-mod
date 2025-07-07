@@ -1,0 +1,18 @@
+state={
+	id=151
+	name="STATE_151"
+	resources={
+		aluminium=15.000
+	}
+	provinces={
+		658 661 3660 3662 6661 11587 11623 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=598920
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

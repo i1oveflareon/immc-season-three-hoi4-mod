@@ -1,0 +1,13 @@
+characters = {
+    LIP_paul = {
+        name = LIP_paul
+        portraits = {
+            civilian = {
+                large = portrait_LIP_paul
+            }
+        }
+        country_leader = {
+            ideology = theocracy
+        }
+    }
+}

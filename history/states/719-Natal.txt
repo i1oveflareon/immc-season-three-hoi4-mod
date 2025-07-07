@@ -1,0 +1,18 @@
+state={
+	id=719
+	name="STATE_719"
+	resources={
+		chromium=60.000
+	}
+	provinces={
+		1468 1494 1833 4556 4584 4696 4822 7576 7900 8178 12547 
+	}
+	history = {
+		owner = BRI
+		add_core_of = BRI
+	}
+	manpower=3962157
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

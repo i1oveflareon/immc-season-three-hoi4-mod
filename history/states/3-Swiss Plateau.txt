@@ -1,0 +1,15 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		663 9620 11590 11601 11604 
+	}
+	manpower=1216838
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=67
+	name="STATE_67"
+	resources={
+		steel=8.000
+		aluminium=6.000
+	}
+	provinces={
+		6512 9457 
+	}
+	history = {
+		owner = SAX
+		add_core_of = SAX
+	}
+	manpower=1402591
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=4.000
+}

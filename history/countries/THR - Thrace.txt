@@ -1,0 +1,28 @@
+capital = 801
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 750
+
+set_politics = {
+	ruling_party = libertarian_socialist
+	last_election = "1980.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	totalitarian_socialist = 10
+	communist = 10
+	libertarian_socialist = 10
+	social_democrat = 10
+	social_liberal = 10
+	market_liberal = 10
+	conservative = 10
+	nationalist = 10
+	fascist = 10
+	savarite = 10
+}

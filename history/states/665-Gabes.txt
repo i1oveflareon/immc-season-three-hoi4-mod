@@ -1,0 +1,15 @@
+state={
+	id=665
+	name="STATE_665"
+	provinces={
+		1105 1141 3987 4992 7005 9943 9983 10026 10082 11935 11957 12000 12034 13145 13179 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=427824
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

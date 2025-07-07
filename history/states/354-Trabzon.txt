@@ -1,0 +1,15 @@
+state={
+	id=354
+	name="STATE_354"
+	provinces={
+		789 6976 6991 7454 10403 10472 11753 11853 
+	}
+	history = {
+		owner = KUR
+		add_core_of = KUR
+	}
+	manpower=1031129
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,47 @@
+ideas = {
+    country = {
+        SAX_bulwark_of_democracy = {
+            picture = SAX_bulwark_of_democracy
+			allowed = {
+				tag = SAX
+			}
+			modifier = {
+				stability_factor = 0.2
+				army_core_defence_factor = 0.2
+                army_core_attack_factor = 0.1
+			}
+        }
+        SAX_leader_of_free_europe = {
+            picture = SAX_leader_of_free_europe
+			allowed = {
+				tag = SAX
+			}
+			modifier = {
+                opinion_gain_monthly_factor = 10
+				stability_weekly = 0.05
+			}
+        }
+        SAX_rumi_refugees = {
+            picture = SAX_rumi_refugees
+			allowed = {
+				tag = SAX
+			}
+			modifier = {
+                monthly_population = 0.01
+                stability_factor = -0.05
+                conservative_drift = -0.01
+                social_liberal_drift = -0.01
+			}
+        }
+        SAX_the_commonwealth = {
+            picture = SAX_the_commonwealth
+			allowed = {
+				tag = SAX
+			}
+			modifier = {
+                non_core_manpower = 0.01
+                compliance_growth = 0.1
+			}
+        }
+    }
+}

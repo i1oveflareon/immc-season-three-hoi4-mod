@@ -1,0 +1,15 @@
+state={
+	id=1018
+	name="STATE_1018"
+	state_category = rural
+	provinces={
+		9874 9890 
+	}
+	history = {
+		owner = NAT
+		add_core_of = NAT
+	}
+	manpower=350000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

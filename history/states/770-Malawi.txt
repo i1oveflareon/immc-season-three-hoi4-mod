@@ -1,0 +1,15 @@
+state={
+	id=770
+	name="STATE_770"
+	provinces={
+		2255 12908 12950 12986 13209 
+	}
+	history = {
+		owner = MRV
+		add_core_of = MRV
+	}
+	manpower=1603975
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

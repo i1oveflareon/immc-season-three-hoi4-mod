@@ -1,0 +1,15 @@
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		5034 5077 7992 8058 10814 10875 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=225000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=152
+	name="STATE_152"
+	resources={
+		steel=15.000
+		aluminium=1.000
+	}
+	provinces={
+		688 707 3684 6691 
+	}
+	history = {
+		owner = ALP
+		add_core_of = ALP
+	}
+	manpower=675377
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

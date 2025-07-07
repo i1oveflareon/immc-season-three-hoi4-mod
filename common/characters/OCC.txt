@@ -1,0 +1,13 @@
+characters = {
+    OCC_emperor_michel = {
+        name = OCC_emperor_michel
+        portraits = {
+            civilian = {
+                large = portrait_OCC_emperor_michel
+            }
+        }
+        country_leader = {
+            ideology = absolute_monarchist
+        }
+    }
+}

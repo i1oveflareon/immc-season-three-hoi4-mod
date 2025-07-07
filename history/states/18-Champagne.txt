@@ -1,0 +1,15 @@
+state={
+	id=18
+	name="STATE_18"
+	provinces={
+		3546 3560 5291 6545 9472 13011 
+	}
+	history = {
+		owner = SAX
+		add_core_of = SAX
+	}
+	manpower=1370800
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

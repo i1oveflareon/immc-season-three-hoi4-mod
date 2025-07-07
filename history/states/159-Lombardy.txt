@@ -1,0 +1,15 @@
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		607 773 969 3776 3780 9584 11568 11734 
+	}
+	history {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=5597704
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

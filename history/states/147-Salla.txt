@@ -1,0 +1,15 @@
+state={
+	id=147
+	name="STATE_147"
+	provinces={
+		197 3121 9123 9158 9162 11085 
+	}
+	history = {
+		owner = SUO
+		add_core_of = SUO
+	}
+	manpower=4630
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

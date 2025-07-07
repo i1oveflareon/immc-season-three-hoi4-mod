@@ -1,0 +1,17 @@
+state={
+	id=1017
+	name="STATE_1017"
+
+	state_category = town
+	
+	provinces={
+		551 3533 6531 9490 9505 11732 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=150000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=904
+	name="STATE_904"
+	provinces={
+		5160 11145 
+	}
+	history = {
+		owner = SAX
+		add_core_of = SAX
+	}
+	manpower=678400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

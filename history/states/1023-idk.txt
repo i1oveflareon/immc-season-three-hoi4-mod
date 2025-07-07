@@ -1,0 +1,15 @@
+state={
+	id=1023
+	name="STATE_1023"
+	state_category = town
+	provinces={
+		630 9602 9756 9771 
+	}
+	history = {
+		owner = HRE
+		add_core_of = HRE
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

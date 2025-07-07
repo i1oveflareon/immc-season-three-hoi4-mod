@@ -1,0 +1,18 @@
+state={
+	id=792
+	name="STATE_792"
+	resources={
+		steel=8.000
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	provinces={
+		738 740 3735 6756 11688 13220 13233 
+	}
+	manpower=928094
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		907 3882 11832 11857 11868 
+	}
+	manpower=210000
+	history = {
+		owner = THR
+		add_core_of = THR
+	}
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

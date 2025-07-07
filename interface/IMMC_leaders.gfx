@@ -1,0 +1,14 @@
+spriteTypes = {		
+	spriteType = {
+		name = "portrait_OCC_emperor_michel"
+		texturefile = "gfx/leaders/OCC/OCC_emperor_michel.png"
+	}
+	spriteType = {
+		name = "portrait_SAX_gretchen_decker"
+		texturefile = "gfx/leaders/SAX/SAX_gretchen_decker.png"
+	}
+	spriteType = {
+		name = "portrait_LIP_paul"
+		texturefile = "gfx/leaders/LIP/LIP_paul.png"
+	}
+}

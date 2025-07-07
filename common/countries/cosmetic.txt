@@ -1,0 +1,4 @@
+COG_HAB_subject = {
+	color = rgb { 63 211 144  }
+	color_ui = rgb { 63 211 144 }
+}

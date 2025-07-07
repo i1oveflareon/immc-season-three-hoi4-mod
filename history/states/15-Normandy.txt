@@ -1,0 +1,18 @@
+state={
+	id=15
+	name="STATE_15"
+	resources={
+		steel=21.000
+	}
+	provinces={
+		485 539 553 3534 3549 3579 6449 6569 6585 6599 9434 9550 9578 11420 11521 11535 11563 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=2332100
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

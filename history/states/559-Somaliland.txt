@@ -1,0 +1,18 @@
+state={
+	id=559
+	name="STATE_559"
+	resources={
+		steel=1.000
+	}
+	provinces={
+		1964 2020 2063 5065 8164 10928 12840 12991 
+	}
+	history = {
+		owner = SAX
+		add_core_of = SAX
+	}
+	manpower=771671
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=731
+	name="STATE_731"
+	provinces={
+		895 936 966 3526 3844 3936 6990 9930 10163 11818 
+	}
+	history = {
+		owner = OCC
+		add_core_of = OCC
+	}
+	manpower=1155700
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

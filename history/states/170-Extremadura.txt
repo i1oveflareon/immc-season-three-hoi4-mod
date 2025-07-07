@@ -1,0 +1,18 @@
+state={
+	id=170
+	name="STATE_170"
+	resources={
+		tungsten=4.000
+	}
+	provinces={
+		809 931 3930 6902 6948 6954 9839 9877 9925 11798 11851 13230 
+	}
+	history = {
+		owner = BAY
+		add_core_of = BAY
+	}
+	manpower=1417652
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

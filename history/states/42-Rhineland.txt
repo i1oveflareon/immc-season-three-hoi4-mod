@@ -1,0 +1,19 @@
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		steel=50.000
+		aluminium=14.000
+	}
+	provinces={
+		563 589 3423 3558 3574 9575 11531 11547 11560 
+	}
+	history = {
+		owner = MAI
+		add_core_of = MAI
+	}
+	manpower=3027739
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

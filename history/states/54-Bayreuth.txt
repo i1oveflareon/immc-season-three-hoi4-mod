@@ -1,0 +1,15 @@
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		561 3474 6421 6540 6555 6581 6594 9416 9545 9557 9572 11404 11417 11529 11544 13116 
+	}
+	history = {
+		owner = SAX
+		add_core_of = SAX
+	}
+	manpower=2508159
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

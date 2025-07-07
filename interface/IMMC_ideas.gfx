@@ -1,0 +1,30 @@
+spriteTypes = {		
+	spriteType = {
+		name = "GFX_idea_OCC_latin_empire"
+		texturefile = "gfx/interface/ideas/OCC/OCC_latin_empire.png"
+	}
+	spriteType = {
+		name = "GFX_idea_OCC_legacy_of_the_empire"
+		texturefile = "gfx/interface/ideas/OCC/OCC_legacy_of_the_empire.png"
+	}	
+	spriteType = {
+		name = "GFX_idea_OCC_perpetual_territorial_expansion"
+		texturefile = "gfx/interface/ideas/OCC/OCC_perpetual_territorial_expansion.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SAX_bulwark_of_democracy"
+		texturefile = "gfx/interface/ideas/SAX/SAX_bulwark_of_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SAX_leader_of_free_europe"
+		texturefile = "gfx/interface/ideas/SAX/SAX_leader_of_free_europe.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SAX_rumi_refugees"
+		texturefile = "gfx/interface/ideas/SAX/SAX_rumi_refugees.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SAX_the_commonwealth"
+		texturefile = "gfx/interface/ideas/SAX/SAX_the_commonwealth.png"
+	}
+}

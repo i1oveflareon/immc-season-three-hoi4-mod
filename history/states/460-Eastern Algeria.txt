@@ -1,0 +1,15 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		4046 7065 7166 10078 13077 
+	}
+	history = {
+		owner = RST
+		add_core_of = RST
+	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
