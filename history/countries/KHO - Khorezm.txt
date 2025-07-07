@@ -15,14 +15,5 @@ set_politics = {
 }
 
 set_popularities = {
-	totalitarian_socialist = 10
-	communist = 10
-	libertarian_socialist = 10
-	social_democrat = 10
-	social_liberal = 10
-	market_liberal = 10
-	conservative = 10
-	nationalist = 10
-	fascist = 10
-	savarite = 10
+	totalitarian_socialist = 100
 }

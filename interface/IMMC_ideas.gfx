@@ -27,4 +27,32 @@ spriteTypes = {
 		name = "GFX_idea_SAX_the_commonwealth"
 		texturefile = "gfx/interface/ideas/SAX/SAX_the_commonwealth.png"
 	}
+	spriteType = {
+		name = "GFX_idea_LIP_god_ordained_synodal_princapility"
+		texturefile = "gfx/interface/ideas/LIP/LIP_god_ordained_synodal_princapility.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RUM_the_legitimate_government"
+		texturefile = "gfx/interface/ideas/RUM/RUM_the_legitimate_government.png"
+	}
+	spriteType = {
+		name = "GFX_idea_GRY_junta_support"
+		texturefile = "gfx/interface/ideas/RUM/GRY_junta_support.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRF_disorganized_militias"
+		texturefile = "gfx/interface/ideas/RUM/PRF_disorganized_militias.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SLC_carving_the_wolf_in_half"
+		texturefile = "gfx/interface/ideas/RUM/SLC_carving_the_wolf_in_half.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SLC_nusajayan_aid"
+		texturefile = "gfx/interface/ideas/RUM/SLC_nusajayan_aid.png"
+	}
+	spriteType = {
+		name = "GFX_idea_MTB_aftermath_of_the_operation_hekuyn"
+		texturefile = "gfx/interface/ideas/RUM/MTB_aftermath_of_the_operation_hekuyn.png"
+	}
 }

@@ -2,10 +2,10 @@ state={
 	id=344
 	name="STATE_344"
 	provinces={
-		6813 7620 9912 
+		7620 9912 
 	}
 	history = {
-		owner = RUM
+		owner = PRF
 		add_core_of = RUM
 	}
 	manpower=1081781

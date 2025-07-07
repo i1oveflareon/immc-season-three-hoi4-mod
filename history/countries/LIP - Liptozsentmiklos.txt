@@ -5,9 +5,9 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 0
-
-recruit_character = LIP_paul
+add_ideas = {
+	LIP_god_ordained_synodal_princapility
+}
 
 set_politics = {
 	ruling_party = nationalist
@@ -21,3 +21,6 @@ set_popularities = {
 	nationalist = 70
 	fascist = 10
 }
+
+recruit_character = LIP_paul #
+

@@ -42,5 +42,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_OCC_absolute_monarchist"
 		texturefile = "gfx/interface/ideologies/OCC_absolute_monarchist.png"
-	}	
+	}
+	spriteType = {
+		name = "GFX_ideology_GRY_ethno_nationalism"
+		texturefile = "gfx/interface/ideologies/GRY_ethno_nationalism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_SLC_islamic_authoritarian"
+		texturefile = "gfx/interface/ideologies/SLC_islamic_authoritarian.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_PRF_left_anarchist"
+		texturefile = "gfx/interface/ideologies/PRF_left_anarchist.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_RUM_left_wing_nationalism"
+		texturefile = "gfx/interface/ideologies/RUM_social_democrat.png"
+	}
 }

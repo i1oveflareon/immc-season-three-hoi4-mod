@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = RUM
 		add_core_of = RUM
+		victory_points = {
+			11829 25
+		}
 	}
 	manpower=1042276
 	buildings_max_level_factor=1.000

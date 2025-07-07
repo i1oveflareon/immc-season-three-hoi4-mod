@@ -3,7 +3,7 @@ characters = {
         name = OCC_emperor_michel
         portraits = {
             civilian = {
-                large = portrait_OCC_emperor_michel
+                large = "gfx/leaders/OCC/OCC_emperor_michel.png"
             }
         }
         country_leader = {

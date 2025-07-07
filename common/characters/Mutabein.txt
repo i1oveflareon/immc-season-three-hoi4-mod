@@ -1,0 +1,13 @@
+characters = {
+    MTB_collapsed_authority = {
+        name = MTB_collapsed_authority
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/Mutabein/MTB_collapsed_authority.png"
+            }
+        }
+        country_leader = {
+            ideology = salafi_jihadism
+        }
+    }
+}

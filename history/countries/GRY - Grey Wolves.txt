@@ -1,11 +1,12 @@
-capital = 100
+capital = 346
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 750
+add_ideas = {
+	GRY_junta_support
+}
 
 set_politics = {
 	ruling_party = fascist
@@ -19,3 +20,5 @@ set_popularities = {
 	fascist = 65
 	savarite = 30
 }
+
+recruit_character = RUM_heydar_nursultan

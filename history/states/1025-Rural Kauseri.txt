@@ -1,0 +1,15 @@
+state={
+	id=1025
+	name="STATE_1025"
+	state_category = rural
+	provinces={
+		3921 6813 6888 6977 
+	}
+	history = {
+		owner = MTB
+		add_core_of = RUM
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

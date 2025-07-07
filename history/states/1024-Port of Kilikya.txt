@@ -6,10 +6,11 @@ state={
 		11746 11810 
 	}
 	history = {
-		owner = RUM
+		owner = SLC
 		add_core_of = RUM
+		add_core_of = SLC
 	}
-	manpower=0
+	manpower=125000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

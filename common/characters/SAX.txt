@@ -3,7 +3,7 @@ characters = {
         name = SAX_gretchen_decker
         portraits = {
             civilian = {
-                large = portrait_SAX_gretchen_decker
+                large = "gfx/leaders/SAX/SAX_gretchen_decker.png"
             }
         }
         country_leader = {

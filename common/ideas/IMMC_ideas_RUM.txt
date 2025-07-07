@@ -1,0 +1,77 @@
+ideas = {
+    country = {
+        RUM_the_legitimate_government = {
+            picture = RUM_the_legitimate_government
+			allowed = {
+				tag = RUM
+			}
+			modifier = {
+				stability_factor = 0.3
+				political_power_factor = 0.1
+			}
+        }
+        GRY_junta_support = {
+            picture = GRY_junta_support
+			allowed = {
+				tag = GRY
+			}
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+                political_power_factor = -0.05
+			}
+        }
+        PRF_disorganized_militias = {
+            picture = PRF_disorganized_militias
+			allowed = {
+				tag = PRF
+			}
+			modifier = {
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
+                army_org_regain = -0.1
+                army_speed_factor = 0.1
+                army_strength_factor = -0.2
+                planning_speed = -0.1
+			}
+        }
+        SLC_carving_the_wolf_in_half = {
+            picture = SLC_carving_the_wolf_in_half
+			allowed = {
+				tag = SLC
+			}
+			targeted_modifier = {
+                tag = GRY
+                attack_bonus_against = 0.1
+                defense_bonus_against = 0.1
+            }
+        }
+        SLC_nusajayan_aid = {
+            picture = SLC_nusajayan_aid
+			allowed = {
+				tag = SLC
+			}
+			modifier = {
+                army_attack_factor = 0.1
+				army_defence_factor = 0.1
+                army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+                political_power_factor = -0.2
+			}
+        }
+		MTB_aftermath_of_the_operation_hekuyn = {
+            picture = MTB_aftermath_of_the_operation_hekuyn
+			allowed = {
+				tag = MTB
+			}
+			modifier = {
+                stability_factor = -0.6
+				war_support_factor = -0.6
+				army_org_regain = -0.1
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+				planning_speed = -0.2
+			}
+        }
+    }
+}

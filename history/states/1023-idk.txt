@@ -9,7 +9,7 @@ state={
 		owner = HRE
 		add_core_of = HRE
 	}
-	manpower=0
+	manpower=150000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }

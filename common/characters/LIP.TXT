@@ -3,7 +3,7 @@ characters = {
         name = LIP_paul
         portraits = {
             civilian = {
-                large = portrait_LIP_paul
+                large = "gfx/leaders/LIP/LIP_paul.png"
             }
         }
         country_leader = {

@@ -1,0 +1,35 @@
+characters = {
+    SOV_abudiz = {
+        name = SOV_abudiz
+        portraits ={
+            civilian = {
+                large = "gfx/leaders/SOV/SOV_abudiz.png"
+            }
+        }
+        country_leader = {
+            ideology = marxism_leninism
+        }
+    }
+    UKR_nausicae = {
+        name = UKR_nausicae
+        portraits ={
+            civilian = {
+                large = "gfx/leaders/SOV/UKR_nausicae.png"
+            }
+        }
+        country_leader = {
+            ideology = reformist_socialism
+        }
+    }
+    SOV_military_rule = {
+        name = SOV_military_rule
+        portraits ={
+            civilian = {
+                large = "gfx/leaders/SOV/SAR_soviet_armed_forces.png"
+            }
+        }
+        country_leader = {
+            ideology = left_wing_junta
+        }
+    }
+}

@@ -5,7 +5,7 @@ state={
 		876 9858 9860 9954 10399 11797 
 	}
 	history = {
-		owner = KUR
+		owner = PRF
 		add_core_of = KUR
 	}
 	manpower=523537

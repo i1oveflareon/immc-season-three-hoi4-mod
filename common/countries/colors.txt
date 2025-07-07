@@ -161,3 +161,7 @@ MTB = {
 	color = rgb { 10 10 10 }
 	color_ui = rgb { 10 10 10 }
 }
+SAR = {
+	color = rgb { 198 21 39 }
+	color_ui = rgb { 198 21 39 }
+}

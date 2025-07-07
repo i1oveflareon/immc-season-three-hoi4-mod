@@ -1,0 +1,46 @@
+characters = {
+    RUM_ilyas_huseynov = {
+        name = RUM_ilyas_huseynov
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RUM/RUM_ilyas_huseynov.png"
+            }
+        }
+        country_leader = {
+            ideology = left_wing_nationalism
+        }
+    }
+    RUM_heydar_nursultan = {
+        name = RUM_heydar_nursultan
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RUM/GRY_heydar_nursultan.png"
+            }
+        }
+        country_leader = {
+            ideology = ethno_nationalism
+        }
+    }
+    RUM_muhammed_sara = {
+        name = RUM_muhammed_sara
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RUM/SLC_muhammed_sara.png"
+            }
+        }
+        country_leader = {
+            ideology = islamic_authoritarian
+        }
+    }
+    PRF_collective_leadership = {
+        name = PRF_collective_leadership
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/RUM/PRF_collective_leadership.png"
+            }
+        }
+        country_leader = {
+            ideology = left_anarchist
+        }
+    }
+}

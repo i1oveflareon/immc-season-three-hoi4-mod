@@ -1,13 +1,16 @@
 ideas = {
     country = {
         LIP_god_ordained_synodal_princapility = {
-            picture = SAX_leader_of_free_europe
+            picture = LIP_god_ordained_synodal_princapility
 			allowed = {
-				tag = SAX
+				tag = LIP
 			}
 			modifier = {
-                opinion_gain_monthly_factor = 10
+                stability_factor = 0.5
+                war_support_factor = 0.5
 				stability_weekly = 0.05
+                war_support_weekly = 0.05
+                nationalist_drift = 0.05
 			}
         }
     }
