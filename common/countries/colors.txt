@@ -140,6 +140,10 @@ NDG = {
 	color = rgb { 158 44 78 }
 	color_ui = rgb { 158 44 78 }
 }
+MZV = {
+	color = rgb { 168 58 157 }
+	color_ui = rgb { 168 58 157 }
+}
 ZZZ = {
 	color = rgb { 0 0 0  }
 	color_ui = rgb { 0 0 0 }
@@ -152,6 +156,34 @@ GRY = {
 PRF = {
 	color = rgb { 206 137 132 }
 	color_ui = rgb { 206 137 132 }
+}
+NSJ = {
+	color = rgb { 255 212 94 }
+	color_ui = rgb { 255 212 94 }
+}
+JAP = {
+	color = rgb { 147 37 34 }
+	color_ui = rgb { 147 37 34 }
+}
+NZL = {
+	color = rgb { 155 255 160 }
+	color_ui = rgb { 155 255 160 }
+}
+GBR = {
+	color = rgb { 229 110 223 }
+	color_ui = rgb { 229 110 223 }
+}
+PNJ = {
+	color = rgb { 255 153 166 }
+	color_ui = rgb { 255 153 166 }
+}
+GNY = {
+	color = rgb { 136 133 229 }
+	color_ui = rgb { 136 133 229 }
+}
+MAD = {
+	color = rgb { 226 176 111 }
+	color_ui = rgb { 226 176 111 }
 }
 SLC = {
 	color = rgb { 57 247 49 }

@@ -1,0 +1,19 @@
+ideas = {
+    country = {
+        ZZZ_total_anarchy = {
+            picture = ZZZ_total_anarchy
+			allowed = {
+				tag = ZZZ
+			}
+			modifier = {
+				stability_factor = -1
+                political_power_gain = -1
+                recruitable_population = -10
+                research_speed_factor = -1
+                production_speed_buildings_factor = -1
+                industrial_capacity_factory = -1
+                industrial_capacity_dockyard = -1
+			}
+        }
+    }
+}

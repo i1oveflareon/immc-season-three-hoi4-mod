@@ -59,4 +59,20 @@ spriteTypes = {
 		name = "GFX_ideology_RUM_left_wing_nationalism"
 		texturefile = "gfx/interface/ideologies/RUM_social_democrat.png"
 	}
+	spriteType = {
+		name = "GFX_ideology_SAX_right_populism"
+		texturefile = "gfx/interface/ideologies/SAX_right_populism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_SAX_centrist"
+		texturefile = "gfx/interface/ideologies/SAX_centrist.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_SAX_left_centrist"
+		texturefile = "gfx/interface/ideologies/SAX_social_democrat.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_salafi_jihadism"
+		texturefile = "gfx/interface/ideologies/generic_jihadism.png"
+	}
 }

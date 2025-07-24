@@ -1,38 +1,9 @@
 ideologies = {
 	totalitarian_socialist = {
 		types = {
-			jucheism = {
-				can_be_randomly_selected = no
-				color = {
-					117
-					26
-					8
-				}
-			}
-			totalism = {
-			}
-			digital_leninism = {
-				can_be_randomly_selected = no
-			}
-			technocracy_totsoc = {
-				can_be_randomly_selected = no
-			}
 			ibarrism = {
 			}
 			left_wing_junta = {
-			}
-			social_fascism = {
-				can_be_randomly_selected = no
-			}
-			neo_stalinism = {
-			}
-			transhumanism = {
-				can_be_randomly_selected = no
-				color = {
-					112
-					6
-					45
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -74,17 +45,6 @@ ideologies = {
 			}
 			abudizism = {
 			}
-			neo_socialism = {
-				can_be_randomly_selected = no
-			}
-			left_nationalism = {
-				can_be_randomly_selected = no
-				color = {
-					140
-					35
-					35
-				}
-			}
 			trotskyism = {
 			}
 		}
@@ -119,27 +79,19 @@ ideologies = {
 		types = {
 			left_anarchist = {
 			}
-			post_leftism = {
+			esterism = {
+			}
+			abudizism_libsoc = {
 			}
 			left_accelerationist = {
 				can_be_randomly_selected = no
 			}
-			reformist_socialism = {
+			democratic_socialism = {
 				can_be_randomly_selected = no
 				color = {
 					200
 					44
 					36
-				}
-			}
-			eco_socialism = {
-			}
-			eurocommunism = {
-				can_be_randomly_selected = no
-				color = {
-					211
-					26
-					52
 				}
 			}
 		}
@@ -190,14 +142,6 @@ ideologies = {
 			}
 			social_democracy = {
 			}
-			reformist_socialism_socdem = {
-				can_be_randomly_selected = no
-				color = {
-					255
-					56
-					90
-				}
-			}
 			left_populism = {
 				can_be_randomly_selected = no
 				color = {
@@ -213,25 +157,9 @@ ideologies = {
 					73
 					128
 				}
-			}
-			technocracy = {
-				can_be_randomly_selected = no
-				color = {
-					255
-					56
-					90
-				}
-			}		
+			}	
 			left_wing_nationalism = {
 				can_be_randomly_selected = yes
-			}
-			neo_socialism_socdem = {
-				can_be_randomly_selected = no
-				color = {
-					189
-					54
-					124
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -276,14 +204,6 @@ ideologies = {
 			christian_democracy = {
 				can_be_randomly_selected = no
 			}
-			supervised_democracy_liberal = {
-				can_be_randomly_selected = no
-				color = {
-					188
-					147
-					78
-				}
-			}
 			liberal_socialism = {
 				can_be_randomly_selected = no
 				color = {
@@ -294,17 +214,6 @@ ideologies = {
 			}
 			green_liberalism = {
 				can_be_randomly_selected = no
-			}
-			ultra_liberalism = {
-				can_be_randomly_selected = no #schizo_NAFO_EU
-			}
-			centrist_pluralism = {
-				can_be_randomly_selected = no
-				color = {
-					255
-					180
-					60
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -416,28 +325,12 @@ ideologies = {
 			}
 			classical_conservatism = {
 			}
-			supervised_democracy = {
-				can_be_randomly_selected = no
-				color = {
-					73
-					73
-					176
-				}
-			}
 			islamic_democrat = {
 				can_be_randomly_selected = no
 				color = {
 					0
 					89
 					128
-				}
-			}
-			conservative_socialism = {
-				can_be_randomly_selected = no
-				color = {
-					63
-					72
-					204
 				}
 			}
 		}
@@ -498,48 +391,8 @@ ideologies = {
 			}	
 			auth_populism = {
 			}
-			military_democracy = {
-				can_be_randomly_selected = no
-				color = {
-					88
-					88
-					88
-				}
-			}
 			corporatocracy = {
 				#Corpo
-			}
-			ultraglobalism = {
-				can_be_randomly_selected = no
-				color = {
-					77
-					77
-					77
-				}
-			}
-			patriotic_socialism = {
-				can_be_randomly_selected = no
-				color = {
-					125
-					105
-					105
-				}
-			}		
-			novocommunism = {
-				can_be_randomly_selected = no
-				color = {
-					125
-					105
-					105
-				}
-			}	
-			pragmatic_socialism = {
-				can_be_randomly_selected = no
-				color = {
-					167
-					109
-					109
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -581,6 +434,14 @@ ideologies = {
 					20
 				}
 			}
+			turanism = {
+				can_be_randomly_selected = no
+				color = {
+					133
+					193
+					242
+				}
+			}
 			absolute_monarchist = {
 				can_be_randomly_selected = no
 				color = {
@@ -596,37 +457,9 @@ ideologies = {
 					190
 					177
 				}
-			}
-			wahabi = {
-				can_be_randomly_selected = no
-				color = {
-					0
-					40
-					0
-				}
 			}		
-			radical_nationalism = {
-				can_be_randomly_selected = no
-				color = {
-					15
-					10
-					0
-				}
-			}
 			military_junta = {
 				#Junta
-			}
-			purification_administration = {
-				#Ascended Man
-				can_be_randomly_selected = no
-			}
-			right_wing_accelerationist = {
-				can_be_randomly_selected = no
-				color = {
-					63
-					242
-					161
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -659,7 +492,7 @@ ideologies = {
 	fascist = {
 		types = {
 			falangist = {
-				#Franco
+				#Kurzville
 				can_be_randomly_selected = no
 				color = {
 					156
@@ -683,8 +516,6 @@ ideologies = {
 					14
 				}
 			}
-			national_syndicalism = {
-			}	
 			ultranationalism = {
 				can_be_randomly_selected = no
 				color = {
@@ -735,6 +566,15 @@ ideologies = {
 			}
 			national_socialism = {
 			}
+			divine_rule = {
+				# Empire of Eternal Divinity
+				can_be_randomly_selected = no
+				color = {
+					56
+					0
+					61
+				}
+			}
 			accelerationist = {
 				can_be_randomly_selected = no
 				color = {
@@ -742,19 +582,6 @@ ideologies = {
 					0
 					28
 				}
-			}
-			national_bolshevism = {
-				can_be_randomly_selected = no
-				color = {
-					106
-					43
-					43
-				}
-			}
-			death_cult = {
-				#Soldiers of heaven
-				can_be_randomly_selected = no
-				
 			}
 			salafi_jihadism = {
 				can_be_randomly_selected = no

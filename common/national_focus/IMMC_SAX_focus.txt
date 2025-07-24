@@ -1,0 +1,1741 @@
+focus_tree = {
+    id = SAX_initial_tree
+    country = {
+        factor = 0
+		modifier = {
+			add = 20
+			original_tag = SAX
+		}
+    }
+    focus = {
+        id = SAX_convene_the_reichstag
+        icon = GFX_focus_SAX_convene_the_reichstag
+        x = 0
+        y = 0
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_political_power = 125
+        }
+    }
+    focus = {
+        id = SAX_internal_issues
+        icon = GFX_focus_SAX_internal_issues
+        prerequisite = {
+            focus = SAX_convene_the_reichstag
+        }
+        x = 10
+        y = 1
+        relative_position_id = SAX_convene_the_reichstag
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            country_event = saxony.1
+        }
+    }
+    focus = {
+        id = SAX_steady_as_she_goes
+        icon = GFX_focus_SAX_steady_as_she_goes
+        prerequisite = {
+            focus = SAX_internal_issues
+        }
+        mutually_exclusive = {
+            focus = SAX_move_against_decker
+        }
+        relative_position_id = SAX_internal_issues
+        x = -4
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_prioritize_stability
+        icon = GFX_focus_SAX_prioritize_stability
+        prerequisite = {
+            focus = SAX_steady_as_she_goes
+        }
+        relative_position_id = SAX_steady_as_she_goes
+        x = -2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_strenghten_the_konservative_demokrat_alliance
+        icon = GFX_focus_SAX_strenghten_the_konservative_demokrat_alliance
+        prerequisite = {
+            focus = SAX_prioritize_stability
+        }
+        relative_position_id = SAX_prioritize_stability
+        x = -2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_promote_hansa
+        icon = GFX_focus_SAX_promote_hansa
+        prerequisite = {
+            focus = SAX_strenghten_the_konservative_demokrat_alliance
+        }
+        mutually_exclusive = {
+            focus = SAX_compromise_with_smaller_parties
+        }
+        mutually_exclusive = {
+            focus = SAX_meet_in_the_middle
+        }
+        relative_position_id = SAX_strenghten_the_konservative_demokrat_alliance
+        x = -2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_meet_in_the_middle
+        icon = GFX_focus_SAX_meet_in_the_middle
+        prerequisite = {
+            focus = SAX_strenghten_the_konservative_demokrat_alliance
+        }
+        mutually_exclusive = {
+            focus = SAX_compromise_with_smaller_parties
+        }
+        mutually_exclusive = {
+            focus = SAX_promote_hansa
+        }
+        relative_position_id = SAX_strenghten_the_konservative_demokrat_alliance
+        x = 0
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_compromise_with_smaller_parties
+        icon = GFX_SAX_compromise_with_smaller_parties
+        prerequisite = {
+            focus = SAX_strenghten_the_konservative_demokrat_alliance
+        }
+        mutually_exclusive = {
+            focus = SAX_promote_hansa
+        }
+        mutually_exclusive = {
+            focus = SAX_meet_in_the_middle
+        }
+        relative_position_id = SAX_strenghten_the_konservative_demokrat_alliance
+        x = 2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_tighten_the_bonds
+        icon = GFX_SAX_tighten_the_bonds
+        prerequisite = {
+            focus = SAX_promote_hansa
+            focus = SAX_meet_in_the_middle
+            focus = SAX_compromise_with_smaller_parties
+        }
+        relative_position_id = SAX_meet_in_the_middle
+        x = 0
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_defend_the_minds_of_the_youth
+        icon = GFX_focus_SAX_defend_the_minds_of_the_youth
+        prerequisite = {
+            focus = SAX_steady_as_she_goes
+        }
+        relative_position_id = SAX_steady_as_she_goes
+        x = 2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_stability = 0.1
+            add_popularity = {
+                ideology = conservative 
+                popularity = 0.5
+            }
+        }
+    }
+    focus = {
+        id = SAX_promote_conservative_ideals
+        icon = GFX_focus_SAX_promote_conservative_ideals
+        prerequisite = {
+            focus = SAX_defend_the_minds_of_the_youth
+        }
+        relative_position_id = SAX_defend_the_minds_of_the_youth
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_preserve_family_values
+        icon = GFX_focus_SAX_preserve_family_values
+        prerequisite = {
+            focus = SAX_promote_conservative_ideals
+        }
+        relative_position_id = SAX_promote_conservative_ideals
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_a_new_generation_of_conservatives
+        icon = GFX_focus_SAX_a_new_generation_of_conservatives
+        prerequisite = {
+            focus = SAX_preserve_family_values
+        }
+        prerequisite = {
+            focus = SAX_combat_left_wing_extremism
+        }
+        relative_position_id = SAX_preserve_family_values
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_tackle_extremist_groups
+        icon = GFX_focus_SAX_tackle_extremist_groups
+        prerequisite = {
+            focus = SAX_defend_the_minds_of_the_youth
+        }
+        prerequisite = {
+            focus = SAX_revive_the_opposition
+        }
+        relative_position_id = SAX_defend_the_minds_of_the_youth
+        x = 4
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_combat_left_wing_extremism
+        icon = GFX_focus_SAX_combat_left_wing_extremism
+        prerequisite = {
+            focus = SAX_tackle_extremist_groups
+        }
+        relative_position_id = SAX_tackle_extremist_groups
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_stability = -0.1
+            add_popularity = {
+                ideology = totalitarian_socialist 
+                popularity = -0.1
+            }
+            add_popularity = {
+                ideology = communist 
+                popularity = -0.1
+            }
+            add_popularity = {
+                ideology = libertarian_socialist 
+                popularity = -0.1
+            }
+        }
+    }
+    focus = {
+        id = SAX_combat_right_wing_extremism
+        icon = GFX_focus_SAX_combat_right_wing_extremism
+        prerequisite = {
+            focus = SAX_tackle_extremist_groups
+        }
+        relative_position_id = SAX_tackle_extremist_groups
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_stability = -0.1
+            add_popularity = {
+                ideology = savarite 
+                popularity = -0.1
+            }
+            add_popularity = {
+                ideology = fascist 
+                popularity = -0.1
+            }
+            add_popularity = {
+                ideology = nationalist 
+                popularity = -0.1
+            }
+        }
+    }
+    focus = {
+        id = SAX_deckeronomics
+        icon = GFX_focus_SAX_deckeronomics
+        prerequisite = {
+            focus = SAX_steady_as_she_goes
+        }
+        relative_position_id = SAX_steady_as_she_goes
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_political_power = 50
+
+        }
+    }
+    focus = {
+        id = SAX_dont_confront_the_unions
+        icon = GFX_focus_SAX_dont_confront_the_unions
+        prerequisite = {
+            focus = SAX_deckeronomics
+        }
+        mutually_exclusive = {
+            focus = SAX_fight_the_unions
+        }
+        relative_position_id = SAX_deckeronomics
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_stability = 0.5
+        }
+    }
+    focus = {
+        id = SAX_fight_the_unions
+        icon = GFX_focus_SAX_fight_the_unions
+        prerequisite = {
+            focus = SAX_deckeronomics
+        }
+        mutually_exclusive = {
+            focus = SAX_dont_confront_the_unions
+        }
+        relative_position_id = SAX_deckeronomics
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            add_stability = -0.5
+
+        }
+    }
+    focus = {
+        id = SAX_mass_privatizations
+        icon = GFX_focus_SAX_mass_privatizations
+        prerequisite = {
+            focus = SAX_fight_the_unions
+            focus = SAX_dont_confront_the_unions
+        }
+        relative_position_id = SAX_fight_the_unions
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_promote_the_ftc
+        icon = GFX_focus_SAX_promote_the_ftc
+        prerequisite = {
+            focus = SAX_mass_privatizations
+        }
+        relative_position_id = SAX_mass_privatizations
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_protect_the_corporations
+        icon = GFX_focus_SAX_protect_the_corporations
+        prerequisite = {
+            focus = SAX_mass_privatizations
+        }
+        relative_position_id = SAX_mass_privatizations
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_thousand_week_deckerreich
+        icon = GFX_focus_SAX_thousand_week_deckerreich
+        prerequisite = {
+            focus = SAX_tighten_the_bonds
+        }
+        prerequisite = {
+            focus = SAX_protect_the_corporations
+        }
+        prerequisite = {
+            focus = SAX_promote_the_ftc
+        }
+        prerequisite = {
+            focus = SAX_a_new_generation_of_conservatives
+        }
+        relative_position_id = SAX_protect_the_corporations
+        x = 1
+        y = 2
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_move_against_decker
+        icon = GFX_focus_SAX_move_against_decker
+        prerequisite = {
+            focus = SAX_internal_issues
+        }
+        mutually_exclusive = {
+            focus = SAX_move_against_decker
+        }
+        relative_position_id = SAX_internal_issues
+        x = 12
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_revive_the_opposition
+        icon = GFX_focus_SAX_revive_the_opposition
+        prerequisite = {
+            focus = SAX_move_against_decker
+        }
+        mutually_exclusive = {
+            focus = SAX_abandon_the_establishment_parties
+        }
+        relative_position_id = SAX_move_against_decker
+        x = -5
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_abandon_the_establishment_parties
+        icon = GFX_focus_SAX_abandon_the_establishment_parties
+        prerequisite = {
+            focus = SAX_move_against_decker
+        }
+        mutually_exclusive = {
+            focus = SAX_revive_the_opposition
+        }
+        relative_position_id = SAX_move_against_decker
+        x = 3
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_embrace_radicalism
+        icon = GFX_focus_SAX_embrace_radicalism
+        prerequisite = {
+            focus = SAX_abandon_the_establishment_parties
+        }
+        relative_position_id = SAX_abandon_the_establishment_parties
+        x = -2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_take_politics_to_streets
+        icon = GFX_focus_SAX_take_politics_to_streets
+        prerequisite = {
+            focus = SAX_embrace_radicalism
+        }
+        prerequisite = {
+            focus = SAX_undermine_the_ruling_coalition
+        }
+        relative_position_id = SAX_embrace_radicalism
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_sway_the_suw
+        icon = GFX_focus_SAX_sway_the_suw
+        prerequisite = {
+            focus = SAX_undermine_the_ruling_coalition
+        }
+        relative_position_id = SAX_undermine_the_ruling_coalition
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_press_on_the_immigration_issue
+        icon = GFX_focus_SAX_press_on_the_immigration_issue
+        prerequisite = {
+            focus = SAX_abandon_the_establishment_parties
+        }
+        relative_position_id = SAX_abandon_the_establishment_parties
+        x = 2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_promise_economic_revival
+        icon = GFX_focus_SAX_promise_economical_revival
+        prerequisite = {
+            focus = SAX_press_on_the_immigration_issue
+        }
+        prerequisite = {
+            focus = SAX_break_the_bounds_of_moderate_politics
+        }
+        relative_position_id = SAX_press_on_the_immigration_issue
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_down_with_the_eternal_chancellor
+        icon = GFX_focus_SAX_down_with_the_eternal_chancellor
+        prerequisite = {
+            focus = SAX_promise_economic_revival
+        }
+        relative_position_id = SAX_promise_economic_revival
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_break_the_bounds_of_moderate_politics
+        icon = GFX_focus_SAX_break_the_bounds_of_moderate_politics
+        prerequisite = {
+            focus = SAX_abandon_the_establishment_parties
+        }
+        relative_position_id = SAX_abandon_the_establishment_parties
+        x = 0
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_revive_saxon_pride
+        icon = GFX_focus_SAX_revive_saxon_pride
+        prerequisite = {
+            focus = SAX_break_the_bounds_of_moderate_politics
+        }
+        mutually_exclusive = {
+            focus = SAX_embrace_the_class_struggle
+        }
+        relative_position_id = SAX_break_the_bounds_of_moderate_politics
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_embrace_the_class_struggle
+        icon = GFX_focus_SAX_embrace_the_class_struggle
+        prerequisite = {
+            focus = SAX_break_the_bounds_of_moderate_politics
+        }
+        mutually_exclusive = {
+            focus = SAX_revive_saxon_pride
+        }
+        relative_position_id = SAX_break_the_bounds_of_moderate_politics
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_power_to_the_working_class
+        icon = GFX_focus_SAX_power_to_the_people
+        prerequisite = {
+            focus = SAX_embrace_the_class_struggle
+        }
+        relative_position_id = SAX_embrace_the_class_struggle
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_organize_mass_strikes
+        icon = GFX_focus_SAX_organize_mass_strikes
+        prerequisite = {
+            focus = SAX_power_to_the_working_class
+        }
+        relative_position_id = SAX_power_to_the_working_class
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_sway_the_aps_voters
+        icon = GFX_focus_SAX_sway_the_aps_voters
+        prerequisite = {
+            focus = SAX_power_to_the_working_class
+        }
+        prerequisite = {
+            focus = SAX_fight_the_establishment
+        }
+        relative_position_id = SAX_power_to_the_working_class
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_red_flags_over_saxony
+        icon = GFX_focus_SAX_red_flags_over_saxony
+        prerequisite = {
+            focus = SAX_organize_mass_strikes
+        }
+        prerequisite = {
+            focus = SAX_sway_the_aps_voters
+        }
+        relative_position_id = SAX_organize_mass_strikes
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_fight_the_establishment
+        icon = GFX_focus_SAX_fight_the_establishment
+        prerequisite = {
+            focus = SAX_embrace_the_class_struggle
+            focus = SAX_revive_saxon_pride
+        }
+        relative_position_id = SAX_embrace_the_class_struggle
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_embrace_saxon_identity
+        icon = GFX_focus_SAX_embrace_saxon_identity
+        prerequisite = {
+            focus = SAX_revive_saxon_pride
+        }
+        relative_position_id = SAX_revive_saxon_pride
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_appeal_to_dissatisfied_konservative_voters
+        icon = GFX_focus_SAX_appeal_to_dissatisfied_konservative_voters
+        prerequisite = {
+            focus = SAX_embrace_saxon_identity
+        }
+        prerequisite = {
+            focus = SAX_fight_the_establishment
+        }
+        relative_position_id = SAX_embrace_saxon_identity
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_pride_not_hatred
+        icon = GFX_focus_SAX_pride_not_hatred
+        prerequisite = {
+            focus = SAX_embrace_saxon_identity
+        }
+        relative_position_id = SAX_embrace_saxon_identity
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_revive_hansa_volk
+        icon = GFX_focus_SAX_revive_hansa_volk
+        prerequisite = {
+            focus = SAX_pride_not_hatred
+        }
+        prerequisite = {
+            focus = SAX_appeal_to_dissatisfied_konservative_voters
+        }
+        relative_position_id = SAX_appeal_to_dissatisfied_konservative_voters
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_left_of_the_center
+        icon = GFX_focus_SAX_left_of_the_center
+        prerequisite = {
+            focus = SAX_revive_the_opposition
+        }
+        relative_position_id = SAX_revive_the_opposition
+        x = 0
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_reach_out_to_kps
+        icon = GFX_focus_SAX_reach_out_to_kps
+        prerequisite = {
+            focus = SAX_revive_the_opposition
+        }
+        relative_position_id = SAX_revive_the_opposition
+        x = 2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_appeal_to_moderates
+        icon = GFX_focus_SAX_appeal_to_moderates
+        prerequisite = {
+            focus = SAX_revive_the_opposition
+        }
+        relative_position_id = SAX_revive_the_opposition
+        x = -2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_undermine_the_ruling_coalition
+        icon = GFX_focus_SAX_undermine_the_ruling_coalition
+        prerequisite = {
+            focus = SAX_revive_the_opposition
+            focus = SAX_abandon_the_establishment_parties
+        }
+        relative_position_id = SAX_revive_the_opposition
+        x = 4
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_leftist_unity
+        icon = GFX_focus_SAX_leftist_unity
+        prerequisite = {
+            focus = SAX_reach_out_to_kps
+        }
+        prerequisite = {
+            focus = SAX_left_of_the_center
+        }
+        mutually_exclusive = {
+            focus = SAX_work_with_the_democrats
+        }
+        relative_position_id = SAX_appeal_to_moderates
+        x = 3
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_work_with_the_democrats
+        icon = GFX_focus_SAX_work_with_the_democrats
+        prerequisite = {
+            focus = SAX_appeal_to_moderates
+        }
+        prerequisite = {
+            focus = SAX_left_of_the_center
+        }
+        mutually_exclusive = {
+            focus = SAX_leftist_unity
+        }
+        relative_position_id = SAX_left_of_the_center
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_secure_the_centrist_vote
+        icon = GFX_focus_SAX_secure_the_centrist_vote
+        prerequisite = {
+            focus = SAX_work_with_the_democrats
+        }
+        prerequisite = {
+            focus = SAX_combat_right_wing_extremism
+        }
+        relative_position_id = SAX_work_with_the_democrats
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_ally_with_minority_parties
+        icon = GFX_focus_SAX_ally_with_minority_parties
+        prerequisite = {
+            focus = SAX_work_with_the_democrats
+            focus = SAX_leftist_unity
+        }
+        relative_position_id = SAX_work_with_the_democrats
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_revive_die_linke
+        icon = GFX_focus_SAX_revive_die_linke
+        prerequisite = {
+            focus = SAX_leftist_unity
+        }
+        prerequisite = {
+            focus = SAX_sway_the_suw
+        }
+        relative_position_id = SAX_work_with_the_democrats
+        x = 3
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_a_grand_coalition
+        icon = GFX_focus_SAX_a_grand_coalition
+        prerequisite = {
+            focus = SAX_secure_the_centrist_vote
+        }
+        prerequisite = {
+            focus = SAX_ally_with_minority_parties
+        }
+        relative_position_id = SAX_secure_the_centrist_vote
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_revive_the_saxon_left
+        icon = GFX_focus_SAX_revive_the_saxon_left
+        prerequisite = {
+            focus = SAX_revive_die_linke
+        }
+        prerequisite = {
+            focus = SAX_ally_with_minority_parties
+        }
+        relative_position_id = SAX_revive_die_linke
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_depose_decker
+        icon = GFX_focus_SAX_depose_decker
+        prerequisite = {
+            focus = SAX_revive_the_saxon_left
+            focus = SAX_a_grand_coalition
+        }
+        relative_position_id = SAX_revive_the_saxon_left
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+
+    focus = {
+        id = SAX_external_politics
+        icon = GFX_focus_SAX_external_politics
+        prerequisite = {
+            focus = SAX_convene_the_reichstag
+        }
+        relative_position_id = SAX_convene_the_reichstag
+        x = -12
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_central_european_diplomacy
+        icon = GFX_focus_SAX_central_european_diplomacy
+        prerequisite = {
+            focus = SAX_external_politics
+        }
+        relative_position_id = SAX_external_politics
+        x = -4
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_protect_raetia_and_mainz
+        icon = GFX_focus_SAX_protect_raetia_and_mainz
+        prerequisite = {
+            focus = SAX_central_european_diplomacy
+        }
+        mutually_exclusive = {
+            focus = SAX_move_against_occitan_imperialism
+        }
+        relative_position_id = SAX_central_european_diplomacy
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_end_alpbanian_neutrality
+        icon = GFX_focus_SAX_end_alpbanian_neutrality
+        prerequisite = {
+            focus = SAX_protect_raetia_and_mainz
+            focus = SAX_move_against_occitan_imperialism
+        }
+        relative_position_id = SAX_protect_raetia_and_mainz
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_crush_whelsch_separatists
+        icon = GFX_focus_SAX_crush_whelsch_separatists
+        prerequisite = {
+            focus = SAX_protect_raetia_and_mainz
+        }
+        relative_position_id = SAX_protect_raetia_and_mainz
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_promote_central_european_separatism
+        icon = GFX_focus_SAX_promote_central_european_separatism
+        prerequisite = {
+            focus = SAX_move_against_occitan_imperialism
+        }
+        relative_position_id = SAX_move_against_occitan_imperialism
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_ally_illyria
+        icon = GFX_focus_SAX_ally_illyria
+        prerequisite = {
+            focus = SAX_end_alpbanian_neutrality
+            focus = SAX_crush_whelsch_separatists
+        }
+        relative_position_id = SAX_end_alpbanian_neutrality
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_balkan_diplomacy
+        icon = GFX_focus_SAX_balkan_diplomacy
+        prerequisite = {
+            focus = SAX_end_alpbanian_neutrality
+            focus = SAX_promote_central_european_separatism
+        }
+        relative_position_id = SAX_end_alpbanian_neutrality
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_support_rum
+        icon = GFX_focus_SAX_back_the_provisional_government
+        prerequisite = {
+            focus = SAX_promote_central_european_separatism
+        }
+        relative_position_id = SAX_promote_central_european_separatism
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_promote_saxon_exceptionalism
+        icon = GFX_focus_SAX_promote_saxon_exceptionalism
+        prerequisite = {
+            focus = SAX_crush_whelsch_separatists
+        }
+        relative_position_id = SAX_crush_whelsch_separatists
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_move_against_occitan_imperialism
+        icon = GFX_focus_SAX_move_against_occitan_imperialism
+        prerequisite = {
+            focus = SAX_central_european_diplomacy
+        }
+        mutually_exclusive = {
+            focus = SAX_protect_raetia_and_mainz
+        }
+        relative_position_id = SAX_central_european_diplomacy
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_saxony_above_all
+        icon = GFX_focus_SAX_saxony_above_all
+        prerequisite = {
+            focus = SAX_promote_saxon_exceptionalism
+        }
+        prerequisite = {
+            focus = SAX_ally_illyria
+        }
+        relative_position_id = SAX_promote_saxon_exceptionalism
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_lay_the_foundations_of_a_european_union
+        icon = GFX_focus_SAX_lay_the_foundations_of_a_european_union
+        prerequisite = {
+            focus = SAX_balkan_diplomacy
+        }
+        prerequisite = {
+            focus = SAX_support_rum
+        }
+        prerequisite = {
+            focus = SAX_ally_illyria
+        }
+        prerequisite = {
+            focus = SAX_befriend_america
+        }
+        relative_position_id = SAX_balkan_diplomacy
+        x = 2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_defend_free_europe
+        icon = GFX_focus_SAX_defend_free_europe
+        prerequisite = {
+            focus = SAX_external_politics
+        }
+        relative_position_id = SAX_external_politics
+        x = 4
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_mass_militarization
+        icon = GFX_focus_SAX_mass_militarization
+        prerequisite = {
+            focus = SAX_defend_free_europe
+        }
+        relative_position_id = SAX_defend_free_europe
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_commit_to_central_european_defense
+        icon = GFX_focus_SAX_commit_to_central_european_defense
+        prerequisite = {
+            focus = SAX_mass_militarization
+        }
+        relative_position_id = SAX_mass_militarization
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_arms_deal_with_new_athens
+        icon = GFX_focus_SAX_arms_deal_with_new_athens
+        prerequisite = {
+            focus = SAX_mass_militarization
+        }
+        relative_position_id = SAX_mass_militarization
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_protect_the_black_sea
+        icon = GFX_focus_SAX_protect_the_black_sea
+        prerequisite = {
+            focus = SAX_arms_deal_with_new_athens
+        }
+        mutually_exclusive = {
+            focus = SAX_blockade_occitania
+        }
+        relative_position_id = SAX_arms_deal_with_new_athens
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_expand_saxon_military_industry
+        icon = GFX_focus_SAX_expand_saxon_military_industry
+        prerequisite = {
+            focus = SAX_arms_deal_with_new_athens
+        }
+        relative_position_id = SAX_arms_deal_with_new_athens
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_blockade_occitania
+        icon = GFX_focus_SAX_blockade_occitania
+        prerequisite = {
+            focus = SAX_commit_to_central_european_defense
+        }
+        mutually_exclusive = {
+            focus = SAX_protect_the_black_sea
+        }
+        relative_position_id = SAX_commit_to_central_european_defense
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_fortify_the_eastern_border
+        icon = GFX_focus_SAX_fortify_the_eastern_border
+        prerequisite = {
+            focus = SAX_defend_free_europe
+        }
+        relative_position_id = SAX_defend_free_europe
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_reach_out_to_free_scandivanian_states
+        icon = GFX_focus_SAX_reach_out_to_free_scandivanian_states
+        prerequisite = {
+            focus = SAX_fortify_the_eastern_border
+        }
+        relative_position_id = SAX_fortify_the_eastern_border
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_befriend_america
+        icon = GFX_focus_SAX_befriend_america
+        prerequisite = {
+            focus = SAX_reach_out_to_free_scandivanian_states
+        }
+        relative_position_id = SAX_reach_out_to_free_scandivanian_states
+        x = -1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_pan_european_defense_force
+        icon = GFX_focus_SAX_pan_european_defense_force
+        prerequisite = {
+            focus = SAX_befriend_america
+        }
+        prerequisite = {
+            focus = SAX_blockade_occitania
+        }
+        mutually_exclusive = {
+            focus = SAX_saxon_military_exceptionalism
+        }
+        relative_position_id = SAX_befriend_america
+        x = 0
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_permanent_defense_readiness
+        icon = GFX_focus_SAX_permanent_defense_readiness
+        prerequisite = {
+            focus = SAX_pan_european_defense_force
+            focus = SAX_saxon_military_exceptionalism
+        }
+        relative_position_id = SAX_blockade_occitania
+        x = 1
+        y = 2
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_saxon_military_exceptionalism
+        icon = GFX_focus_SAX_saxon_military_exceptionalism
+        prerequisite = {
+            focus = SAX_expand_saxon_military_industry
+        }
+        prerequisite = {
+            focus = SAX_blockade_occitania
+            focus = SAX_protect_the_black_sea
+        }
+        mutually_exclusive = {
+            focus = SAX_pan_european_defense_force
+        }
+        relative_position_id = SAX_expand_saxon_military_industry
+        x = 0
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+}
