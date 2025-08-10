@@ -1,0 +1,13 @@
+characters = {
+    BAY_jalal_bahloul = {
+        name = BAY_jalal_bahloul
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BAY/BAY_jalal_bahloul.png"
+            }
+        }
+        country_leader = {
+            ideology = left_wing_nationalism
+        }
+    }
+}

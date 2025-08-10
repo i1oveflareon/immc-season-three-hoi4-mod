@@ -1,0 +1,13 @@
+characters = {
+    BRI_macbama = {
+        name = BRI_macbama
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/BRI/BRI_macbama.png"
+            }
+        }
+        country_leader = {
+            ideology = social_liberalism
+        }
+    }
+}

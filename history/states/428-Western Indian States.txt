@@ -10,9 +10,8 @@ state = {
 	}
 
 	history = {
-
-		owner = RAJ
-		add_core_of = WIS
+		owner = RSC
+		add_core_of = RSC
 
 		victory_points = {
 			10118 1 # Jamnagar

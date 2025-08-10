@@ -4,8 +4,6 @@
  RUM_muhammed_sara:0 "Muhammed Şara"
  PRF_collective_leadership:0 "Collective Leadership"
 
- RUM_totalitarian_socialist_party:0 "DICIP"
- RUM_totalitarian_socialist_party_long:0 "Devrimci Isci Ciftci Partisi"
  RUM_communist_party:0 "SSP - KP"
  RUM_communist_party_long:0 "Selçuklu Sosyalist Partisi - Komünist Platform"
  RUM_libertarian_socialist_party:0 "SSP - DSP"
@@ -14,12 +12,12 @@
  RUM_social_democrat_party_long:0 "Selçuklu Sosyalist Partisi - Reformist Platform"
  RUM_social_liberal_party:0 "DSP-PDB"
  RUM_social_liberal_party_long:0 "Dimokratikós Sýndesmos Pontíon"
- RUM_market_liberal_party:0 "§ROUTLAWED§!"
- RUM_conservative_party:0 "§ROUTLAWED§!"
- RUM_authoritarian_democrat_party:0 "§ROUTLAWED§!"
- RUM_nationalist_party:0 "§ROUTLAWED§!"
- RUM_fascist_party:0 "§ROUTLAWED§!"
- RUM_savarite_party:0 "§ROUTLAWED§!"
+ RUM_liberal_party:0 "§RBANNED§!"
+ RUM_conservative_party:0 "§RBANNED§!"
+ RUM_authoritarian_democrat_party:0 "§RBANNED§!"
+ RUM_despotic_party:0 "§RBANNED§!"
+ RUM_fascist_party:0 "§RBANNED§!"
+ RUM_savarite_party:0 "§RBANNED§!"
 
 
  SAR_communist_party:0 "Soviet Armed Forces"

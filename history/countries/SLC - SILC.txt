@@ -20,7 +20,7 @@ set_politics = {
 set_popularities = {
 	conservative = 10
 	authoritarian_democrat = 75
-	nationalist = 5
+	despotic = 5
 	savarite = 10
 }
 

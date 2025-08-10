@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_1"
+		texturefile = "gfx/leaders/Generic/portrait_generic1.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_2"
+		texturefile = "gfx/leaders/Generic/portrait_generic2.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_3"
+		texturefile = "gfx/leaders/Generic/portrait_generic3.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_4"
+		texturefile = "gfx/leaders/Generic/portrait_generic4.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_5"
+		texturefile = "gfx/leaders/Generic/portrait_generic5.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_6"
+		texturefile = "gfx/leaders/Generic/portrait_generic6.png"
+	}
+	spriteType = {
+		name = "GFX_Portrait_generic_leader_female_1"
+		texturefile  = "gfx/leaders/Generic/portrait_generic_female1.png"
+	}
+}

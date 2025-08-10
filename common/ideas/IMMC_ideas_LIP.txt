@@ -6,11 +6,11 @@ ideas = {
 				tag = LIP
 			}
 			modifier = {
-                stability_factor = 0.5
+                stability_factor = 0.1
                 war_support_factor = 0.5
 				stability_weekly = 0.05
                 war_support_weekly = 0.05
-                nationalist_drift = 0.05
+                nationalist_drift = 0.01
 			}
         }
     }

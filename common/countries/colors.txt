@@ -120,7 +120,7 @@ AEG = {
 	color = rgb { 255 209 58 }
 	color_ui = rgb { 255 209 58 }
 }
-USI = {
+USA = {
 	color = rgb { 126 163 220 }
 	color_ui = rgb { 126 163 220 }
 }

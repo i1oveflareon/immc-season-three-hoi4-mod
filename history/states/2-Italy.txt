@@ -13,7 +13,7 @@ state = {
 			infrastructure = 4
 			air_base = 8
 			arms_factory = 1
-			industrial_complex = 4
+			industrial_complex = 2
 			11751 = {
 				naval_base = 5
 			}
@@ -28,13 +28,6 @@ state = {
                     }
                 }
             }
-		}
-		add_core_of = OCC
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 5
-			}
 		}
 	}
 

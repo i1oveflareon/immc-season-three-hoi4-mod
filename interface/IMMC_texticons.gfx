@@ -1,0 +1,78 @@
+spriteTypes = {		
+	spriteType = {
+		name = "GFX_banner_absolute_monarchist"
+		texturefile = "gfx/texticons/banners/ideology/absolute_monarchist.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_abudizism"
+		texturefile = "gfx/texticons/banners/ideology/abudizism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_abudizism_libsoc"
+		texturefile = "gfx/texticons/banners/ideology/abudizism_libsoc.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_christian_theocracy"
+		texturefile = "gfx/texticons/banners/ideology/christian_theocracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_islamic_theocracy"
+		texturefile = "gfx/texticons/banners/ideology/islamic_theocracy.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_democratic_socialism"
+		texturefile = "gfx/texticons/banners/ideology/democratic_socialism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_national_socialism"
+		texturefile = "gfx/texticons/banners/ideology/national_socialism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_salafi_jihadism"
+		texturefile = "gfx/texticons/banners/ideology/salafi_jihadism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_falterism"
+		texturefile = "gfx/texticons/banners/ideology/NJY_falterism.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_social_democracy"
+		texturefile = "gfx/texticons/banners/ideology/social_democracy.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_banner_deckerism_stage_1"
+		texturefile = "gfx/texticons/banners/ideology/SAX_deckerism_stage_1.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_deckerism_stage_2"
+		texturefile = "gfx/texticons/banners/ideology/SAX_deckerism_stage_2.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_deckerism_stage_3"
+		texturefile = "gfx/texticons/banners/ideology/SAX_deckerism_stage_3.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_deckerism_stage_4"
+		texturefile = "gfx/texticons/banners/ideology/SAX_deckerism_stage_4.png"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_banner_islamic_authoritarianism"
+		texturefile = "gfx/texticons/banners/ideology/islamic_authoritarianism.png"
+		legacy_lazy_load = no
+	}
+}

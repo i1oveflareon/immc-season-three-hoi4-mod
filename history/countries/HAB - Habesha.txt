@@ -8,10 +8,14 @@ set_technology = {
 set_convoys = 750
 
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = despotic
 	last_election = "1980.1.1"
 	election_frequency = 48
 	elections_allowed = yes
+}
+
+add_ideas = {
+	khartoum_economic_collective_member
 }
 
 set_autonomy = {
@@ -21,5 +25,16 @@ set_autonomy = {
 }
 
 set_popularities = {
-	communist = 100
+	communist = 3
+	libertarian_socialist = 7
+	social_democrat = 5
+	social_liberal = 5
+	market_liberal = 7
+	conservative = 8
+	authoritarian_democrat = 5
+	despotic = 50
+	fascist = 10
+	savarite = 3
 }
+
+recruit_character = HAB_omar_al_basher

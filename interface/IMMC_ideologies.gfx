@@ -20,16 +20,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/social_liberal_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_market_liberal_group"
-		texturefile = "gfx/interface/ideologies/market_liberal_group.png"
+		name = "GFX_ideology_liberal_group"
+		texturefile = "gfx/interface/ideologies/liberal_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_conservative_group"
 		texturefile = "gfx/interface/ideologies/conservative_group.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_nationalist_group"
-		texturefile = "gfx/interface/ideologies/nationalist_group.png"
+		name = "GFX_ideology_despotic_group"
+		texturefile = "gfx/interface/ideologies/despotic_group.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_fascist_group"
@@ -60,7 +60,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/RUM_social_democrat.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_SAX_right_populism"
+		name = "GFX_ideology_SAX_right_wing_populism"
 		texturefile = "gfx/interface/ideologies/SAX_right_populism.png"
 	}
 	spriteType = {
@@ -68,11 +68,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/SAX_centrist.png"
 	}
 	spriteType = {
-		name = "GFX_ideology_SAX_left_centrist"
+		name = "GFX_ideology_SAX_center_left"
 		texturefile = "gfx/interface/ideologies/SAX_social_democrat.png"
 	}
 	spriteType = {
 		name = "GFX_ideology_salafi_jihadism"
 		texturefile = "gfx/interface/ideologies/generic_jihadism.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_USA_hybrid_regime"
+		texturefile = "gfx/interface/ideologies/USA_hybrid_regime.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_BRI_social_liberalism"
+		texturefile = "gfx/interface/ideologies/BRI_social_liberalism.png"
 	}
 }

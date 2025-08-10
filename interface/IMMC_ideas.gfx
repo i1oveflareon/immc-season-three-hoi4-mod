@@ -55,4 +55,12 @@ spriteTypes = {
 		name = "GFX_idea_MTB_aftermath_of_the_operation_hekuyn"
 		texturefile = "gfx/interface/ideas/RUM/MTB_aftermath_of_the_operation_hekuyn.png"
 	}
+	spriteType = {
+		name = "GFX_idea_KEC_idea"
+		texturefile = "gfx/interface/ideas/International_Organizations/khartoum_economic_collective.png"
+	}
+	spriteType = {
+		name = "GFX_idea_communist_international_idea"
+		texturefile = "gfx/interface/ideas/International_Organizations/communist_internationa.png"
+	}
 }

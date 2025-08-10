@@ -5,8 +5,8 @@ state={
 		2193 5177 5212 
 	}
 	history = {
-		owner = MRV
-		add_core_of = MRV
+		owner = ZZZ
+		add_core_of = ZZZ
 	}
 	manpower=1226000
 	buildings_max_level_factor=1.000

@@ -1,0 +1,14 @@
+	bookmarks = { #Empty bookmark so the game doesn't freak out when there is only one bookmark avaiable
+		bookmark = {
+			name = "IMMC_NAME"
+			desc = "IMMC_NAME"
+			date = .1.1.1
+			picture = "GFX_select_date_2020"
+			default = no
+			
+			effect = {
+				randomize_weather = 22345 # <- Obligatory in every bookmark !
+				#123 = { rain_light = yes }
+			}
+		}
+	}

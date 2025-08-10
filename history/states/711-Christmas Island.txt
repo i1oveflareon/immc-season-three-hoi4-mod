@@ -6,7 +6,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = NSJ
+		add_core_of = NSJ
 		buildings = {
 			infrastructure = 2
 			13005 = {

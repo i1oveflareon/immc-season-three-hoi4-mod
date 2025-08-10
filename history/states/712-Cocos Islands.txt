@@ -4,9 +4,9 @@ state={
 	manpower=42	
 	state_category = tiny_island
 	
-	history=
-	{
-		owner = ENG
+	history = {
+		owner = NSJ
+		add_core_of = NSJ
 		buildings = {
 			infrastructure = 2
 			13002 = {

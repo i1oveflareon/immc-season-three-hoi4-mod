@@ -1,0 +1,13 @@
+characters = {
+    USA_ajw = {
+        name = USA_ajw
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/USA/USA_ajw.png"
+            }
+        }
+        country_leader = {
+            ideology = hybrid_regime
+        }
+    }
+}

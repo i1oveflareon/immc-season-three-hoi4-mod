@@ -1,0 +1,16 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "open_sans"
+		fontfiles = {
+			"gfx/fonts/open_sans"
+		}
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "open_sans_regular"
+		fontfiles = {
+			"gfx/fonts/open_sans_regular"
+		}
+		color = 0xffffffff
+	}
+}

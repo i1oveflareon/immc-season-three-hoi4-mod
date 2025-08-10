@@ -1,0 +1,239 @@
+spriteTypes = {		
+	spriteType = {
+		name = "GFX_focus_SAX_steady_as_she_goes"
+		texturefile = "gfx/interface/goals/SAX/SAX_steady_as_she_goes.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_prioritize_stability"
+		texturefile = "gfx/interface/goals/SAX/SAX_prioritize_stability.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_deckeronomics"
+		texturefile = "gfx/interface/goals/SAX/SAX_deckeronomics.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_defend_the_minds_of_the_youth"
+		texturefile = "gfx/interface/goals/SAX/SAX_defend_the_minds_of_the_youth.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_strenghten_the_konservative_demokrat_alliance"
+		texturefile = "gfx/interface/goals/SAX/SAX_strenghten_the_konservative_demokrat_alliance.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_dont_confront_the_unions"
+		texturefile = "gfx/interface/goals/SAX/SAX_dont_confront_the_unions.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_fight_the_unions"
+		texturefile = "gfx/interface/goals/SAX/SAX_fight_the_unions.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_promote_conservative_ideals"
+		texturefile = "gfx/interface/goals/SAX/SAX_promote_conservative_ideals.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_tackle_extremist_groups"
+		texturefile = "gfx/interface/goals/SAX/SAX_tackle_extremist_groups.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_promote_hansa"
+		texturefile = "gfx/interface/goals/SAX/SAX_promote_hansa.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_meet_in_the_middle"
+		texturefile = "gfx/interface/goals/SAX/SAX_meet_in_the_middle.png"
+	}
+	spriteType = {
+		name = "GFX_SAX_compromise_with_smaller_parties"
+		texturefile = "gfx/interface/goals/SAX/SAX_compromise_with_smaller_parties.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_mass_privatizations"
+		texturefile = "gfx/interface/goals/SAX/SAX_mass_privatizations.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_preserve_family_values"
+		texturefile = "gfx/interface/goals/SAX/SAX_preserve_family_values.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_combat_left_wing_extremism"
+		texturefile = "gfx/interface/goals/SAX/SAX_combat_left_wing_extremism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_combat_right_wing_extremism"
+		texturefile = "gfx/interface/goals/SAX/SAX_combat_right_wing_extremism.png"
+	}
+	spriteType = {
+		name = "GFX_SAX_tighten_the_bonds"
+		texturefile = "gfx/interface/goals/SAX/SAX_tighten_the_bonds.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_protect_the_corporations"
+		texturefile = "gfx/interface/goals/SAX/SAX_protect_the_corporations.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_promote_the_ftc"
+		texturefile = "gfx/interface/goals/SAX/SAX_promote_the_ftc.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_a_new_generation_of_conservatives"
+		texturefile = "gfx/interface/goals/SAX/SAX_a_new_generation_of_conservatives.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_thousand_week_deckerreich"
+		texturefile = "gfx/interface/goals/SAX/SAX_thousand_week_deckerreich.png"
+	}
+
+	spriteType = {
+		name = "GFX_focus_SAX_central_european_diplomacy"
+		texturefile = "gfx/interface/goals/SAX/SAX_central_european_diplomacy.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_protect_raetia_and_mainz"
+		texturefile = "gfx/interface/goals/SAX/SAX_protect_raetia_and_mainz.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_move_against_occitan_imperialism"
+		texturefile = "gfx/interface/goals/SAX/SAX_move_against_occitan_imperialism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_crush_whelsch_separatists"
+		texturefile = "gfx/interface/goals/SAX/SAX_crush_whelsch_separatists.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_end_alpbanian_neutrality"
+		texturefile = "gfx/interface/goals/SAX/SAX_end_alpbanian_neutrality.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_promote_central_european_separatism"
+		texturefile = "gfx/interface/goals/SAX/SAX_promote_central_european_separatism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_promote_saxon_exceptionalism"
+		texturefile = "gfx/interface/goals/SAX/SAX_promote_saxon_exceptionalism.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_ally_illyria"
+		texturefile = "gfx/interface/goals/SAX/SAX_ally_illyria.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_balkan_diplomacy"
+		texturefile = "gfx/interface/goals/SAX/SAX_balkan_diplomacy.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_back_the_provisional_government"
+		texturefile = "gfx/interface/goals/SAX/SAX_support_rum.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_saxony_above_all"
+		texturefile = "gfx/interface/goals/SAX/SAX_saxony_above_all.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_lay_the_foundations_of_a_european_union"
+		texturefile = "gfx/interface/goals/SAX/SAX_lay_the_foundations_of_a_european_union.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_defend_free_europe"
+		texturefile = "gfx/interface/goals/SAX/SAX_defend_free_europe.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_fortify_the_eastern_border"
+		texturefile = "gfx/interface/goals/SAX/SAX_fortify_the_eastern_border.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_mass_militarization"
+		texturefile = "gfx/interface/goals/SAX/SAX_mass_militarization.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_reach_out_to_free_scandivanian_states"
+		texturefile = "gfx/interface/goals/SAX/SAX_reach_out_to_free_scandivanian_states.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_commit_to_central_european_defense"
+		texturefile = "gfx/interface/goals/SAX/SAX_commit_to_central_european_defense.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_arms_deal_with_new_athens"
+		texturefile = "gfx/interface/goals/SAX/SAX_arms_deal_with_new_athens.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_befriend_america"
+		texturefile = "gfx/interface/goals/SAX/SAX_befriend_america.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_blockade_occitania"
+		texturefile = "gfx/interface/goals/SAX/SAX_blockade_occitania.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_protect_the_black_sea"
+		texturefile = "gfx/interface/goals/SAX/SAX_protect_the_black_sea.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_lay_the_foundations_of_a_european_union"
+		texturefile = "gfx/interface/goals/SAX/SAX_lay_the_foundations_of_a_european_union.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_move_against_decker"
+		texturefile = "gfx/interface/goals/SAX/SAX_move_against_decker.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_revive_the_opposition"
+		texturefile = "gfx/interface/goals/SAX/SAX_revive_the_opposition.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_appeal_to_moderates"
+		texturefile = "gfx/interface/goals/SAX/SAX_appeal_to_moderates.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_left_of_the_center"
+		texturefile = "gfx/interface/goals/SAX/SAX_left_of_the_center.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_reach_out_to_kps"
+		texturefile = "gfx/interface/goals/SAX/SAX_reach_out_to_kps.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_work_with_the_democrats"
+		texturefile = "gfx/interface/goals/SAX/SAX_work_with_the_democrats.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_leftist_unity"
+		texturefile = "gfx/interface/goals/SAX/SAX_leftist_unity.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_secure_the_centrist_vote"
+		texturefile = "gfx/interface/goals/SAX/SAX_secure_the_centrist_vote.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_ally_with_minority_parties"
+		texturefile = "gfx/interface/goals/SAX/SAX_ally_with_minority_parties.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_revive_die_linke"
+		texturefile = "gfx/interface/goals/SAX/SAX_revive_die_linke.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_a_grand_coalition"
+		texturefile = "gfx/interface/goals/SAX/SAX_a_grand_coalition.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_revive_the_saxon_left"
+		texturefile = "gfx/interface/goals/SAX/SAX_revive_die_linke.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_depose_decker"
+		texturefile = "gfx/interface/goals/SAX/SAX_depose_decker.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_undermine_the_ruling_coalition"
+		texturefile = "gfx/interface/goals/SAX/SAX_undermine_the_ruling_coalition.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_sway_the_suw"
+		texturefile = "gfx/interface/goals/SAX/SAX_sway_the_suw.png"
+	}
+	spriteType = {
+		name = "GFX_focus_SAX_take_politics_to_streets"
+		texturefile = "gfx/interface/goals/SAX/SAX_take_politics_to_streets.png"
+	}
+}

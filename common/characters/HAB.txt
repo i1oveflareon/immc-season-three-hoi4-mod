@@ -1,0 +1,13 @@
+characters = {
+    HAB_omar_al_basher = {
+        name = HAB_omar_al_basher
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/HAB/HAB_omar_al_basher.png"
+            }
+        }
+        country_leader = {
+            ideology = islamic_authoritarian
+        }
+    }
+}

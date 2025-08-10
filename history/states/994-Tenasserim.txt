@@ -6,8 +6,8 @@ state = {
 	manpower = 136693
 	
 	history = {
-		owner = BRM
-		add_core_of = BRM
+		owner = NBL
+		add_core_of = NBL
 
 		buildings = {
 			infrastructure = 1

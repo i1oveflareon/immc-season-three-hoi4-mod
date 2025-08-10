@@ -11,7 +11,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = RSC
+		add_core_of = RSC
 		buildings = {
 			infrastructure = 1 #was: 5
 		}

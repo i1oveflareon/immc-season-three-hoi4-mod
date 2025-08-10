@@ -1,4 +1,4 @@
-capital = 797
+capital = 1025
 
 # Starting tech
 set_technology = {
@@ -17,7 +17,7 @@ set_politics = {
 }
 
 set_popularities = {
-	nationalist = 30
+	despotic = 30
 	savarite = 70
 }
 

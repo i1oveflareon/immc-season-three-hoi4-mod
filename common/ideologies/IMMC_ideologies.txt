@@ -1,51 +1,18 @@
 ideologies = {
-	totalitarian_socialist = {
-		types = {
-			ibarrism = {
-			}
-			left_wing_junta = {
-			}
-		}
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-			"FACTION_NAME_COMMUNIST_6"
-		}
-		color = {
-			100
-			0
-			0
-		}
-		war_impact_on_world_tension = 1
-		faction_impact_on_world_tension = 1
-		ai_communist = yes		# uses the commie AI behaviour
-		rules = {
-			can_guarantee_other_ideologies = yes
-			can_send_volunteers = yes
-			can_puppet = no
-			can_join_factions = no
-			can_force_government = no
-		}
-		modifiers = {
-		}
-	}
-
 	communist = {
 		types = {
-			market_socialism = {
-				can_be_randomly_selected = no
+			ibarrism = {
 				color = {
-					153
-					18
+					80
+					0
 					0
 				}
 			}
+			left_junta = {
+			}
 			abudizism = {
 			}
-			trotskyism = {
+			islamic_socialism = {
 			}
 		}
 		dynamic_faction_names = {
@@ -57,7 +24,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_6"
 		}
 		color = {
-			153
+			112
 			0
 			0
 		}
@@ -77,14 +44,11 @@ ideologies = {
 
 	libertarian_socialist = {
 		types = {
-			left_anarchist = {
+			left_anarchist = { 
 			}
 			esterism = {
 			}
 			abudizism_libsoc = {
-			}
-			left_accelerationist = {
-				can_be_randomly_selected = no
 			}
 			democratic_socialism = {
 				can_be_randomly_selected = no
@@ -93,6 +57,8 @@ ideologies = {
 					44
 					36
 				}
+			}	
+			left_wing_nationalism = {
 			}
 		}
 		dynamic_faction_names = {
@@ -104,9 +70,9 @@ ideologies = {
 			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
 		}
 		color = {
-			189
-			54
-			67
+			196
+			72
+			72
 		}
 		war_impact_on_world_tension = 2
 		faction_impact_on_world_tension = 2
@@ -124,42 +90,13 @@ ideologies = {
 
 	social_democrat = {
 		types = {
-			left_centrist = {
-				can_be_randomly_selected = no
-				color = {
-					250
-					39
-					89
-				}
+			center_left = {
 			}
 			progressivism = {
-				can_be_randomly_selected = no
-				color = {
-					233
-					50
-					149
-				}
 			}
 			social_democracy = {
 			}
-			left_populism = {
-				can_be_randomly_selected = no
-				color = {
-					255
-					56
-					90
-				}
-			}
-			green_politics = {
-				can_be_randomly_selected = no
-				color = {
-					213
-					73
-					128
-				}
-			}	
-			left_wing_nationalism = {
-				can_be_randomly_selected = yes
+			left_wing_populism = {
 			}
 		}
 		dynamic_faction_names = {
@@ -172,8 +109,8 @@ ideologies = {
 		}
 		color = {
 			255
-			10
-			102
+			71
+			141
 		}
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -191,29 +128,11 @@ ideologies = {
 
 	social_liberal = {
 		types = {
-			centrist = {
-				can_be_randomly_selected = no
-				color = {
-					251
-                    157
-                    34
-				}
-			}
-			neoliberalism = {
-			}
-			christian_democracy = {
-				can_be_randomly_selected = no
+			social_liberalism = {
 			}
 			liberal_socialism = {
-				can_be_randomly_selected = no
-				color = {
-					255
-					130
-					55
-				}
 			}
 			green_liberalism = {
-				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {
@@ -226,8 +145,8 @@ ideologies = {
 		}
 		color = {
 			255
-			170
-			30
+			72
+			56
 		}
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -243,34 +162,30 @@ ideologies = {
 		}
 	}
 
-	market_liberal = {
+	liberal = {
 		types = {
-			right_libertarianism = {
+			centrism = {
 			}
-			right_anarchism = {
+			libertarianism = {
+			}
+			ancapism = {
 			}
 			classical_liberalism = {
 			}
 			civic_nationalism = {
-				can_be_randomly_selected = no
-				color = {
-					233
-					226
-					56
-				}
 			}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_MARKET_LIBERAL_1"
-			"FACTION_NAME_MARKET_LIBERAL_2"
-			"FACTION_NAME_MARKET_LIBERAL_3"
-			"FACTION_NAME_MARKET_LIBERAL_4"
-			"FACTION_NAME_MARKET_LIBERAL_5"
-			"FACTION_NAME_MARKET_LIBERAL_6"
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
 		}
 		color = {
-			225
-			215
+			255
+			200
 			0
 		}
 		war_impact_on_world_tension = 1
@@ -289,49 +204,15 @@ ideologies = {
 
 	conservative = {
 		types = {
-			right_centrist = {
-				can_be_randomly_selected = no
-				color = {
-					44
-					44
-					255
-				}
+			center_right = {
 			}
-			constitutionalist = {
-				can_be_randomly_selected = no
-				color = {
-					0
-					100
-					210
-				}
+			christian_democrat = {
 			}
-			christian_conservatism = {
-				can_be_randomly_selected = no
-				color = {
-					30
-					66
-					231
-				}
+			right_wing_populism = {
 			}
-			right_populism = {
-				can_be_randomly_selected = no
-				color = {
-					41
-					41
-					168
-				}
-			}
-			neoconservative = {
-			}
-			classical_conservatism = {
+			conservatism = {
 			}
 			islamic_democrat = {
-				can_be_randomly_selected = no
-				color = {
-					0
-					89
-					128
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -343,8 +224,8 @@ ideologies = {
 			"FACTION_NAME_CONSERVATIVE_6"
 		}
 		color = {
-			10
-			15
+			90
+			100
 			255
 		}
 		war_impact_on_world_tension = 1
@@ -363,36 +244,16 @@ ideologies = {
 
 	authoritarian_democrat = {
 		types = {
-			oligarchist = {
-				can_be_randomly_selected = no
-				color = {
-					103
-					116
-					124
-				}
+			oligarchy = {
 			}
 			ultra_conservatism = {
-				can_be_randomly_selected = no
-				color = {
-					123
-					128
-					162
-				}
 			}
 			islamic_authoritarian = {
-				can_be_randomly_selected = no
-				color = {
-					105
-					130
-					102
-				}
 			}
 			hybrid_regime = {
-			}	
-			auth_populism = {
 			}
-			corporatocracy = {
-				#Corpo
+			deckerism_stage_1 = {
+				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {
@@ -404,9 +265,9 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIAN_DEMOCRACY_6"
 		}
 		color = {
-			124
-			124
-			124
+			150
+			150
+			150
 		}
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -422,17 +283,17 @@ ideologies = {
 		}
 	}
 
-	nationalist = {
+	despotic = {
 		types = {
-			autocrat = {
+			autocracy = {
 			}
-			theocracy = {
-				can_be_randomly_selected = no
-				color = {
-					5
-					5
-					20
-				}
+			christian_theocracy = {
+			}
+			islamic_theocracy = {
+			}
+			absolute_monarchist = {
+			}	
+			military_junta = {
 			}
 			turanism = {
 				can_be_randomly_selected = no
@@ -442,24 +303,8 @@ ideologies = {
 					242
 				}
 			}
-			absolute_monarchist = {
+			deckerism_stage_2 = {
 				can_be_randomly_selected = no
-				color = {
-					28
-					9
-					48
-				}
-			}
-			salafi = {
-				can_be_randomly_selected = no
-				color = {
-					194
-					190
-					177
-				}
-			}		
-			military_junta = {
-				#Junta
 			}
 		}
 		dynamic_faction_names = {
@@ -471,9 +316,9 @@ ideologies = {
 			"FACTION_NAME_NATIONALIST_6"
 		}
 		color = {
-			5
-			5
-			5
+			70
+			15
+			40
 		}
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -491,46 +336,27 @@ ideologies = {
 
 	fascist = {
 		types = {
+			fascism = {
+			}
 			falangist = {
-				#Kurzville
+				#Kurzville guy
 				can_be_randomly_selected = no
-				color = {
-					156
-					103
-					50
-				}
 			}
-			ethno_nationalism = {
-			}
-			national_spartanism = {
-			}
-			classical_fascism = {
-			}
-			clerical_fascism = {
-			}
-			ecofascism = {
-				can_be_randomly_selected = no
-				color = {
-					14
-					30
-					14
-				}
+			ethnic_nationalism = {
 			}
 			ultranationalism = {
-				can_be_randomly_selected = no
-				color = {
-					98
-					68
-					40
-				}
 			}
-			falterism = {
+			falterism = { 
+				#Faltuh
 				can_be_randomly_selected = no
 				color = {
 					200
 					177
 					86
 				}
+			}
+			deckerism_stage_3 = {
+				can_be_randomly_selected = no
 			}
 		}
 		dynamic_faction_names = {
@@ -542,9 +368,9 @@ ideologies = {
 			"FACTION_NAME_FASCIST_6"
 		}
 		color = {
-			123
-			84
-			46
+			115
+			35
+			15
 		}
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1
@@ -562,25 +388,15 @@ ideologies = {
 	
 	savarite = {
 		types = {
-			esoteric_fascism = {
-			}
 			national_socialism = {
 			}
 			divine_rule = {
-				# Empire of Eternal Divinity
+				# Empire of Eternal Divinity Savaric's Occitania
 				can_be_randomly_selected = no
 				color = {
 					56
 					0
 					61
-				}
-			}
-			accelerationist = {
-				can_be_randomly_selected = no
-				color = {
-					28
-					0
-					28
 				}
 			}
 			salafi_jihadism = {
@@ -591,14 +407,9 @@ ideologies = {
 					10
 				}
 			}
-			obliteration_of_the_self = {
-				#Literally 1984
+			
+			deckerism_stage_4 = {
 				can_be_randomly_selected = no
-				color = {
-					207
-					194
-					182
-				}
 			}
 		}
 		dynamic_faction_names = {
@@ -610,9 +421,9 @@ ideologies = {
 			"FACTION_NAME_FASCIST_6"
 		}
 		color = {
-			78
-			57
-			57
+			0
+			0
+			0
 		}
 		war_impact_on_world_tension = 1
 		faction_impact_on_world_tension = 1

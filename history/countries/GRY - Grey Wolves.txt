@@ -16,7 +16,7 @@ set_politics = {
 }
 
 set_popularities = {
-	nationalist = 5
+	despotic = 5
 	fascist = 65
 	savarite = 30
 }

@@ -1,0 +1,28 @@
+add_namespace = saxony
+
+country_event = {
+    id = saxony.1
+    title = saxony.1.t
+    desc = saxony.1.d
+    picture = ""
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    trigger = {
+        tag = SAX
+    }
+    option = {
+        name = saxony.1.a
+        ai_chance = {
+            base = 0
+        }
+        complete_national_focus = SAX_steady_as_she_goes
+    }
+    option = {
+        name = saxony.1.b
+        ai_chance = {
+            base = 1 
+        }
+        complete_national_focus = SAX_move_against_decker
+    }
+}

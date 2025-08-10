@@ -1,0 +1,44 @@
+ideas = {
+    country = {
+        khartoum_economic_collective_member = {
+            picture = KEC_idea
+			allowed = {
+			}
+			modifier = {
+                political_power_gain = 0.05
+                research_speed_factor = 0.2
+                production_speed_buildings_factor = 0.3
+			}
+        }
+        communist_international_member = {
+            picture = communist_international_idea
+			allowed = {
+			}
+			modifier = {
+                political_power_gain = 0.05
+                communism_drift = 0.01
+                libertarian_socialist_drift = 0.01
+			}
+        }
+        communist_international_observer = {
+            picture = communist_international_idea
+			allowed = {
+			}
+			modifier = {
+                communism_drift = 0.01
+                libertarian_socialist_drift = 0.01
+			}
+        }
+        iums_member = { #IUMS revival
+            picture = iums_idea
+			allowed = {
+			}
+			modifier = {
+                stability_factor = 0.05
+                war_support_factor = -0.05
+                authoritarian_democrat_drift = 0.01
+                despotic_drift = 0.01
+			}
+        }
+    }
+}

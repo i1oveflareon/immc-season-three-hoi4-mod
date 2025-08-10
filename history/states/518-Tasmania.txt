@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = AST
-		add_core_of = AST
+		owner = BRI
+		add_core_of = BRI
 
 		victory_points = {
 			5187 1 # Hobart

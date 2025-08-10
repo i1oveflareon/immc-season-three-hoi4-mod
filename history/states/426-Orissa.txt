@@ -13,7 +13,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = RSC
+		add_core_of = RSC
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

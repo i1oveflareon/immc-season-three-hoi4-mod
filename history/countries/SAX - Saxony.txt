@@ -8,6 +8,7 @@ set_technology = {
 set_convoys = 750
 
 recruit_character = SAX_gretchen_decker
+recruit_character = SAX_hans_koch
 
 add_ideas = {
 	SAX_bulwark_of_democracy
@@ -25,9 +26,12 @@ set_politics = {
 
 set_popularities = {
 	communist = 10
-	social_democrat = 20
-	social_liberal = 20
+	libertarian_socialist = 10
+	social_democrat = 23
+	social_liberal = 10
+	liberal = 3
 	conservative = 30
-	nationalist = 15
-	fascist = 5
+	authoritarian_democrat = 7
+	despotic = 5
+	savarite = 2
 }

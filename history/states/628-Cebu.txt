@@ -6,9 +6,9 @@ state=
 	
 	state_category = rural
 	
-	history=
-	{
-		owner = PHI
+	history = {
+		owner = NSJ
+		add_core_of = NSJ
 		buildings = {
 			infrastructure = 2
 			12118 = {
@@ -19,7 +19,6 @@ state=
 		victory_points = {
 			12118 1 
 		}
-		add_core_of = PHI
 	}
 
 	provinces={

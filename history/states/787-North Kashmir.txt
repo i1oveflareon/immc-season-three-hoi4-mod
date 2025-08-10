@@ -5,18 +5,15 @@ state={
 	
 	state_category = rural
 
-	history={
+	history = {
+		owner = PNJ
+		add_core_of = PNJ
 		victory_points = {
 			1910 1
 		}
-		owner = RAJ
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = PAK
-		add_claim_by = RAJ
-		add_core_of = KAS
-		add_core_of = KHL 
 	}
 
 	provinces={

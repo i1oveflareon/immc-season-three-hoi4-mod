@@ -1,4 +1,4 @@
-capital = 19
+capital = 213
 
 # Starting tech
 set_technology = {
@@ -7,19 +7,13 @@ set_technology = {
 
 set_convoys = 750
 
-add_ideas = {
-	OCC_latin_empire
-	OCC_legacy_of_the_empire
-	OCC_perpetual_territorial_expansion
-}
-
-recruit_character = OCC_emperor_michel
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = libertarian_socialist
 	last_election = "1980.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
+
 set_popularities = {
-	nationalist = 100
+	libertarian_socialist = 100
 }

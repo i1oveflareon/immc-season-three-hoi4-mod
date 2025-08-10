@@ -8,12 +8,12 @@ set_technology = {
 set_convoys = 750
 
 set_politics = {
-	ruling_party = libertarian_socialist
+	ruling_party = despotic
 	last_election = "1980.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	communist = 100
+	despotic = 100
 }

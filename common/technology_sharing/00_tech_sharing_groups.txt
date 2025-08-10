@@ -1,0 +1,47 @@
+
+ technology_sharing_group = {
+
+	id = euss_research
+	name = euss_research_name
+	desc = euss_research_desc
+	picture = GFX_euss_research
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+		tag = SAX
+        is_in_faction_with = SAX
+    }
+
+}
+
+technology_sharing_group = {
+
+	id = comintern_research
+	name = comintern_research_name
+	desc = comintern_research_desc
+	picture = GFX_comintern_research
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+		tag = SOV
+        is_in_faction_with = SOV
+    }
+
+}
+
+technology_sharing_group = {
+
+	id = iums_research
+	name = iums_research_name
+	desc = iums_research_desc
+	picture = GFX_iums_research
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+		is_in_faction_with = HAB
+    }
+
+}

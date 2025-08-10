@@ -7,7 +7,18 @@ characters = {
             }
         }
         country_leader = {
-            ideology = right_populism
+            ideology = right_wing_populism
+        }
+    }
+    SAX_hans_koch = {
+        name = SAX_hans_koch
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/SAX/SAX_hans_koch.png"
+            }
+        }
+        country_leader = {
+            ideology = center_left
         }
     }
 }

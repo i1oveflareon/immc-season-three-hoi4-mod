@@ -8,7 +8,7 @@ set_technology = {
 set_convoys = 750
 
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = despotic
 	last_election = "1980.1.1"
 	election_frequency = 48
 	elections_allowed = yes

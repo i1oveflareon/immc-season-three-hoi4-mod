@@ -4,9 +4,9 @@ state={
 	manpower=2147	
 	state_category = tiny_island
 	
-	history=
-	{
-		owner = ENG
+	history = {
+		owner = RSC
+		add_core_of = RSC
 		buildings = {
 			infrastructure = 2
 			13019 = {

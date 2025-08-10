@@ -359,7 +359,7 @@ focus_tree = {
                 popularity = -0.1
             }
             add_popularity = {
-                ideology = nationalist 
+                ideology = despotic 
                 popularity = -0.1
             }
         }
@@ -521,7 +521,7 @@ focus_tree = {
             focus = SAX_internal_issues
         }
         mutually_exclusive = {
-            focus = SAX_move_against_decker
+            focus = SAX_steady_as_she_goes
         }
         relative_position_id = SAX_internal_issues
         x = 12
@@ -588,6 +588,26 @@ focus_tree = {
         }
         relative_position_id = SAX_abandon_the_establishment_parties
         x = -2
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
+        id = SAX_undermine_the_ruling_coalition
+        icon = GFX_focus_SAX_undermine_the_ruling_coalition
+        prerequisite = {
+            focus = SAX_revive_the_opposition
+            focus = SAX_abandon_the_establishment_parties
+        }
+        relative_position_id = SAX_revive_the_opposition
+        x = 4
         y = 1
         cost = 5
         ai_will_do = {
@@ -1005,26 +1025,6 @@ focus_tree = {
         }
     }
     focus = {
-        id = SAX_undermine_the_ruling_coalition
-        icon = GFX_focus_SAX_undermine_the_ruling_coalition
-        prerequisite = {
-            focus = SAX_revive_the_opposition
-            focus = SAX_abandon_the_establishment_parties
-        }
-        relative_position_id = SAX_revive_the_opposition
-        x = 4
-        y = 1
-        cost = 5
-        ai_will_do = {
-			base = 40
-		}
-		available = {
-		}
-        completion_reward = {
-            
-        }
-    }
-    focus = {
         id = SAX_leftist_unity
         icon = GFX_focus_SAX_leftist_unity
         prerequisite = {
@@ -1242,6 +1242,28 @@ focus_tree = {
         }
     }
     focus = {
+        id = SAX_move_against_occitan_imperialism
+        icon = GFX_focus_SAX_move_against_occitan_imperialism
+        prerequisite = {
+            focus = SAX_central_european_diplomacy
+        }
+        mutually_exclusive = {
+            focus = SAX_protect_raetia_and_mainz
+        }
+        relative_position_id = SAX_central_european_diplomacy
+        x = 1
+        y = 1
+        cost = 5
+        ai_will_do = {
+			base = 40
+		}
+		available = {
+		}
+        completion_reward = {
+            
+        }
+    }
+    focus = {
         id = SAX_protect_raetia_and_mainz
         icon = GFX_focus_SAX_protect_raetia_and_mainz
         prerequisite = {
@@ -1388,28 +1410,6 @@ focus_tree = {
         }
         relative_position_id = SAX_crush_whelsch_separatists
         x = -1
-        y = 1
-        cost = 5
-        ai_will_do = {
-			base = 40
-		}
-		available = {
-		}
-        completion_reward = {
-            
-        }
-    }
-    focus = {
-        id = SAX_move_against_occitan_imperialism
-        icon = GFX_focus_SAX_move_against_occitan_imperialism
-        prerequisite = {
-            focus = SAX_central_european_diplomacy
-        }
-        mutually_exclusive = {
-            focus = SAX_protect_raetia_and_mainz
-        }
-        relative_position_id = SAX_central_european_diplomacy
-        x = 1
         y = 1
         cost = 5
         ai_will_do = {

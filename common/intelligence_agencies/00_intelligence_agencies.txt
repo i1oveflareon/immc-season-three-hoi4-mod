@@ -1,0 +1,67 @@
+	# List of names and logos for intelligence agencies
+	# available trigger will determine if the logo is in the list of available logos or not
+	# names is a list of names. Can be a localization entry, or the name directly. A random name will be picked from them.
+
+	intelligence_agency = {
+
+		picture = GFX_intelligence_agency_logo_occ
+		names = { "IA_OCC_Agency" }
+		
+		default = { tag = OCC }
+		available = { original_tag = OCC }
+	}
+
+	intelligence_agency = {
+
+		picture = GFX_intelligence_agency_logo_sax
+		names = { "IA_SAX_Agency" }
+		
+		default = { tag = SAX }
+		available = { original_tag = SAX }
+	}
+
+	intelligence_agency = {
+
+		picture = GFX_intelligence_agency_logo_sov
+		names = { "IA_SOV_Agency" }
+		
+		default = { tag = SOV }
+		available = { original_tag = SOV }
+	}
+
+	intelligence_agency = {
+
+		picture = GFX_intelligence_agency_logo_bri
+		names = { "IA_BRI_Agency" }
+		
+		default = { tag = BRI }
+		available = { original_tag = BRI }
+	}
+
+	intelligence_agency = {
+		
+		picture = GFX_intelligence_agency_logo_jap
+		names = { "IA_JAP_Agency" }
+		
+		default = { tag = JAP }
+		available = { original_tag = JAP }
+	}
+
+	intelligence_agency = {
+		
+		picture = GFX_intelligence_agency_logo_mrv
+		names = { "IA_OCC_Agency" }
+		
+		default = { tag = MRV }
+		available = { original_tag = MRV }
+	}
+
+	intelligence_agency = {
+		
+		picture = GFX_intelligence_agency_logo_oros
+		names = { "IA_OROS" }
+		
+		available = { always = yes }
+		
+		default = { always = yes } 
+	}
